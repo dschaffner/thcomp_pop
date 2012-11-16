@@ -50,9 +50,32 @@ Control of polodial or azimuthal flow shear in a turbulent plasma has been previ
 
 Shear suppression models based on the spatial decorrelation of turbulent structures has been the most common approach to describing both the physical mechanism underlying suppression as well as for making scaling predictions. The basic premise underlying these models is the effect of shearing to break apart or shrink turbulent eddies and consequently decrease both fluctuation amplitude and transport step size. Variation in the model predictions arise from differences in shearing regime, source of turbulent drive (i.e. Ion Temperature Gradient, Interchange Drive or Pressure-Gradient Drive), as well as consideration of passive versus dynamic scalars. Recently, other approaches to explaining shear suppression have been made including the enhancement of coupling to damped eigenmodes by sheared flow (Terry) and by nonlinear shifts in the wavenumber spectrum of the turbulence by shearing. However, this paper will focus on the varying decorrelation models which include scaling predictions. 
 
-Two of the earliest of decorrelation models were developed by Biglari, Diamond, Terry in 1990 and Shaing in 1990. The BDT theory attempts a generalized analysis of the transport of any passive scalar in a mean sheared flow in the strong-shear regime with constant drive gradient. BDT the prediction that normalized fluctuation amplitude scales with as -2/3 power with normalized shearing. The Shaing model predicts a scaling of the form $1 - \omega^2$ for fluctuation amplitude for the weak shear regime. An attempt to incorporate the BDT and Shaing models was made by Zhang and Mahajan by expanding the model to incorporate the self-consistant modification of the diffusion and spectrum through fluctuation changes by the flow shear (allowing for a distinction between weak and strong turbulence regimes in the shearing model). The resulting model shows correspondance to the Shaing model in the weak shearing regime while the BDT model is recovered in the strong shearing regime but only for the case where diffusion is unchanged by fluctuation amplitude changes. Furthermore, they extend the model to incorporate the effect of chages in gradient length, showing that shear suppression of fluctuation amplitude is enhanced by a steeper equilibrium gradient. 
+Two of the earliest of decorrelation models were developed by Biglari, Diamond, Terry in 1990 and Shaing in 1990. The BDT theory attempts a generalized analysis of the transport of any passive scalar in a mean sheared flow in the strong-shear regime with constant drive gradient. BDT the prediction that normalized fluctuation amplitude scales directly with shear to the -2/3 power as in,
 
-Work by Terry and Ware in 1996,1997 made predictions for the effect of shearing on particle transport specficially in a resistive pressure-gradient driven turbulence state. There work predicted a decrease in flux as a $1-\omega^2$ model in the weak shear limit as well as predicting a decrease in the cosine of the crossphase between density and radial velocity fluctuations of the form $1-\omega^2$. Further work by Terry, Newman and Ware examined the modfication of flux in the strong shearing regime for a non-mode-specfic turbulence system, prediction a scaling of -4 overall, with fluctuation amplitude reductions contributing one power while crossphase reduction contributed 3 powers, suggesting both a strong dependence of flux on shear as well as an implication that the crossphase can be the dominant flux suppression mechanism rather than the fluctuation amplitude. Conversely, however, Kim and Diamond in 2003, 2004 recast the decorrelation model to include resonance abosrption between the shear flow and fluctuations overall suggesting a much weak depedance of flux on shear, to the -1 power, and even weaker dependance of crossphase, to the -1/6 power while fluctatuions decreased to the -5/3 power. Additional work added the effect of treating the fluctuating flows dynamically in an interchange driven turbulent plasma which allowed for a prediction for the decrease in fluctuating radial velocity as a function of shear scaling to the -3 power in weak shear, and -4 in strong shearing.
+\begin{equation}
+\frac{\langle |\tilde{\xi}|^{2} \rangle}{\langle |\tilde{\xi}|^{2} \rangle_{\gamma_{s}=0}} \sim (\gamma_{s}\tau_{ac})^{-2/3}
+\label{eq:BDT_theory}
+\end{equation}
+
+where $\eta$ can be any quantity such as density or temperature. Conversely, the Shaing model predicts a scaling of the form,
+
+\begin{equation}
+\frac{\langle |\tilde{\xi}|^{2} \rangle}{\langle |\tilde{\xi}|^{2} \rangle_{\gamma_{s}=0}} \sim 1- \alpha(\gamma_{s}\tau_{ac})^2
+\label{eq:shaing_theory}
+\end{equation}
+
+for fluctuation amplitude for the weak shear regime, where $\alpha$ is a constant containing mode number information. An attempt to incorporate the BDT and Shaing models was made by Zhang and Mahajan by expanding the model to incorporate the self-consistant modification of the diffusion and spectrum through fluctuation changes by the flow shear (allowing for a distinction between weak and strong turbulence regimes in the shearing model). The resulting model shows correspondance to the Shaing model in the weak shearing regime while the BDT model is recovered in the strong shearing regime but only for the case where diffusion is unchanged by fluctuation amplitude changes. Furthermore, they extend the model to incorporate the effect of chages in gradient length, showing that shear suppression of fluctuation amplitude is enhanced by a steeper equilibrium gradient. 
+
+Work by Terry and Ware in 1996,1997 made predictions for the effect of shearing on particle transport specficially in a resistive pressure-gradient driven turbulence state. Their work predicted a decrease in flux as a $\Gamma_{p} \sim 1-\gamma_{s}^2$ model in the weak shear limit as well as predicting a decrease in the cosine of the crossphase between density and radial velocity fluctuations also of the form $1-\omega_{s}^2$. They, too, incorporated the modification of the pressure gradient formulating an expression for shearing suppression of radial particle diffusivity of the form,
+
+\begin{equation}
+\frac{D}{D_{\gamma_{s}=0}} \sim 1-\beta(\gamma_{s})^2
+\label{eq:ware_diff_theory}
+\end{equation}
+
+where $\beta$ is a constant containting the linear growth rate and radial mode width.
+
+Further work by Terry, Newman and Ware examined the modfication of flux in the strong shearing regime for a non-mode-specfic turbulence system, prediction a direct scaling of $\Gamma_{p} \sim \gamma{s}^{-4}$ overall, with fluctuation amplitude reductions contributing one power while crossphase reduction contributed three powers, suggesting both a strong dependence of flux on shear as well as an implication that the crossphase can be the dominant flux suppression mechanism rather than the fluctuation amplitude. However, Kim and Diamond in 2003 recast the decorrelation model to include resonance abosrption between the shear flow and fluctuations overall suggesting a much weaker depedance of flux on shear,$\Gamma_{p} \sim \gamma_{s}^{-1}$, and even weaker dependance of crossphase, $\cos(\theta_{nv_{r}}) \sim \gamma_{s}^{-1/6}$, while fluctatuions decreased as $|\tilde{n}|^{2} \sim \gamma_{s}^{-5/3}$. Additional work in 2004 added the effect of treating the fluctuating flows dynamically in an interchange driven turbulent plasma which allowed for a prediction for the decrease in fluctuating radial velocity as a function of shear scaling as $|\tilde{v_{r}}|^{2} \sim \gamma_{s}^{-3}$ in weak shear, and $|\tilde{v_{r}}|^{2} \sim \gamma_{s}^{-4}$ in strong shearing.
 
 Most recently, a 2006 paper by Leconte found different scalings for flux, fluctuations and crossphase in the strong shear regime depending on relative shearing strength relative to a characteristic time and shearing spatial gradient relative to the inhomogenetity gradient. Work by Newton and Kim in 2011 has utilized numerical simulations to determine shearing scalings in a generic model.
 
@@ -72,7 +95,99 @@ A recent experiment on the LAPD \cite{schaffner12} demonstrated the ability to a
 
 \section{Experimental Scaling}
 
-The various experimentally measured quantities as functions of normalized shearing rate were fit to a power law in two ways reflecting in order to make comparisons to models of the form $1-\omega^{\nu}$ and those those of $\omega^{\nu}$. For the first model type, the measured quantity, y, was normalized to the value at zero shear, then transformed as $-(1-y)$. Then, taking the logrthim of both sides, a linear fit was made for points in the weak shear and in the strong shear separately. The resulting slope of the fit is taken as the power $\nu$. For the second type of model, no transformation of the quanitity y to $-(1-y)$ is made before the logrthms and fitting are taken. For a complete comparison to the wide range of model predictions made, fits were made for density fluctuation amplitude, radial particle flux, density-radial velocity fluctuation crossphase, radial velocity (ExB) fluctuation amplitude, radial correlation length, and experimental diffifusisivty ($\Gamma/\nabla n$). The best fits are summarized in Table 1 for each model type and for both weak and strong shear. The X2/ndf is also indicated in the table.
+\begin{figure}[!htbp]
+\centerline{
+\includegraphics[width=8.5cm]{fluxandD}}
+\caption{\label{fig:fluxandD} Scaling of (a)radial particle flux and (b)diffusion coefficient each normalized to the value at minimum shear, $\Gamma_{p}^{0} = 1.7\times10^{16} cm^{-2}$ and $D_{0} = 36.7 m^{2}/s$. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime with $\nu = 0.501$ for flux and $\nu = 0.418$ for D. The blue curves correspond to $\gamma_{s}^{\nu}$ fits with $\nu = -1.719$ for flux and $\nu = -1.646$ for D.}
+\end{figure}
+
+\begin{table}
+\caption{\label{tab:table1}Power-law fits for $|n(\textit{f})^{2}|$ scaling with shear for frequencies in 350Hz to 100kHz. Model form refers to how the shearing relates to the quantity in question, with C a constant and $\nu$ the power exponent.}
+\begin{ruledtabular}
+\begin{tabular}{llccc}
+%One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
+Model form&$\gamma_{s}$ regime&$\nu$&$\chi^2$&$\chi^2/ndf$\\
+\hline
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$&1.228&1.091&0.0642\\
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$&0.231&0.0332&0.0037\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$&-0.116&0.1791&0.0094\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$&-0.512&0.0024&0.0003\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}
+\caption{\label{tab:table2}Power-law fits for $|v_{r}(\textit{f})^{2}|$ scaling with shear for frequencies in 350Hz to 100kHz. Model form refers to how the shearing relates to the quantity in question, with C a constant and $\nu$ the power exponent.}
+\begin{ruledtabular}
+\begin{tabular}{llccc}
+%One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
+Model form&$\gamma_{s}$ regime&$\nu$&$\chi^2$&$\chi^2/ndf$\\
+\hline
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$&0.016&0.2121&0.0117\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$&-0.866&0.0037&0.0005\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}
+\caption{\label{tab:table3}Power-law fits for $\Gamma_{p}$ scaling with shear for frequencies in 350Hz to 100kHz. Model form refers to how the shearing relates to the quantity in question, with C a constant and $\nu$ the power exponent.}
+\begin{ruledtabular}
+\begin{tabular}{llccc}
+%One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
+Model form&$\gamma_{s}$ regime&$\nu$&$\chi^2$&$\chi^2/ndf$\\
+\hline
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$ &0.501   &0.332    &0.0189\\
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$ &0.638   &0.923    &0.1110\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$   &-0.111  &0.146    &0.0077\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$   &-1.719  &62.49    &5.2000\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}
+\caption{\label{tab:table4}Power-law fits for $cos(\theta_{nv_{r}})$ scaling with shear for frequencies in 350Hz to 100kHz. Model form refers to how the shearing relates to the quantity in question, with C a constant and $\nu$ the power exponent.}
+\begin{ruledtabular}
+\begin{tabular}{llccc}
+%One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
+Model form&$\gamma_{s}$ regime&$\nu$&$\chi^2$&$\chi^2/ndf$\\
+\hline
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$ &0.226   &6.1140    &0.3320\\
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$ &1.274   &0.0073    &0.0008\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$   &-0.020  &0.0369    &0.0019\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$   &-0.365  &0.0023    &0.0003\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}
+\caption{\label{tab:table5}Power-law fits for $D = \Gamma_{p}/\nabla{n}$ scaling with shear for frequencies in 350Hz to 100kHz. Model form refers to how the shearing relates to the quantity in question, with C a constant and $\nu$ the power exponent.}
+\begin{ruledtabular}
+\begin{tabular}{llccc}
+%One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
+Model form&$\gamma_{s}$ regime&$\nu$&$\chi^2$&$\chi^2/ndf$\\
+\hline
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$ &0.418   &1.4710    &0.0817\\
+$\sim 1-C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$ &0.197   &0.0016    &0.0002\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$   &-0.217  &0.4200    &0.0221\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$   &-1.646  &0.0187    &0.0021\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\begin{table}
+\caption{\label{tab:table6}Power-law fits for $\Delta r_{c}$ scaling with shear for frequencies in 350Hz to 100kHz. Model form refers to how the shearing relates to the quantity in question, with C a constant and $\nu$ the power exponent.}
+\begin{ruledtabular}
+\begin{tabular}{llccc}
+%One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
+Model form&$\gamma_{s}$ regime&$\nu$&$\chi^2$&$\chi^2/ndf$\\
+\hline
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}<1$ &-0.290 &5.8730 &0.1630\\
+$\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$ &-0.113 &3.7040 &0.3370\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+The various experimentally measured quantities as functions of normalized shearing rate were fit to a power law in two ways reflecting in order to make comparisons to models of the form $1-\omega^{\nu}$ and those those of $\omega^{\nu}$. For the first model type, the measured quantity, y, was normalized to the value at zero shear, then transformed as $-(1-y)$. Then, taking the logrthim of both sides, a linear fit was made for points in the weak shear and in the strong shear separately. The resulting slope of the fit is taken as the power $\nu$. For the second type of model, no transformation of the quanitity y to $-(1-y)$ is made before the logrthms and fitting are taken. For a complete comparison to the wide range of model predictions made, fits were made for density fluctuation amplitude, radial particle flux, density-radial velocity fluctuation crossphase, radial velocity (ExB) fluctuation amplitude, radial correlation length, and experimental diffifusisivty ($\Gamma/\nabla n$). The best fits are summarized in Table 1 for each model type and for both weak and strong shear. The X2/ndf is also indicated in the tables.
 
 \section{Discussion}
 
