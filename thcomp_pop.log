@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  16 NOV 2012 13:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  16 NOV 2012 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,11 +242,7 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 21.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 21.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 21.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 21.
- (./thcomp_pop.aux
-
-LaTeX Warning: Label `fig:fluxandD' multiply defined.
-
-)
+ (./thcomp_pop.aux)
 \openout1 = `thcomp_pop.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -261,7 +257,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
- (c:/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(c:/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen115
@@ -369,26 +366,38 @@ File: densvrcp.png Graphic file (type png)
 Package pdftex.def Info: densvrcp.png used on input line 106.
 (pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
 
-<LgammaLn.png, id=39, 584.1825pt x 263.5446pt>
+<RadCorrLn.png, id=39, 602.25pt x 602.25pt>
+File: RadCorrLn.png Graphic file (type png)
+ <use RadCorrLn.png>
+Package pdftex.def Info: RadCorrLn.png used on input line 112.
+(pdftex.def)             Requested size: 241.84842pt x 241.85144pt.
+
+<LgammaLn.png, id=40, 584.1825pt x 263.5446pt>
 File: LgammaLn.png Graphic file (type png)
  <use LgammaLn.png>
-Package pdftex.def Info: LgammaLn.png used on input line 112.
+Package pdftex.def Info: LgammaLn.png used on input line 118.
 (pdftex.def)             Requested size: 241.84842pt x 109.10757pt.
  [3 <./fluxandD.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 203.
+ on input line 209.
 
-[4 <./densvrcp.png> <./LgammaLn.png>] (./thcomp_pop.bbl) [5] (./thcomp_pop.aux)
+[4 <./densvrcp.png> <./RadCorrLn.png> <./LgammaLn.png>]
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 209.
+
+(./thcomp_pop.bbl) [5] (./thcomp_pop.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
 
  ) 
 Here is how much of TeX's memory you used:
- 4611 strings out of 493629
- 60330 string characters out of 3146671
- 147313 words of memory out of 3000000
- 7820 multiletter control sequences out of 15000+200000
+ 4615 strings out of 493629
+ 60404 string characters out of 3146671
+ 150416 words of memory out of 3000000
+ 7823 multiletter control sequences out of 15000+200000
  19010 words of font info for 69 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  38i,8n,26p,1450b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -411,10 +420,10 @@ live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2011/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2011/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2011/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti9.pfb>
-Output written on thcomp_pop.pdf (5 pages, 1271833 bytes).
+Output written on thcomp_pop.pdf (5 pages, 1962086 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
