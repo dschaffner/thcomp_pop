@@ -10,6 +10,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: thcomp_popNotes.bib
+Warning--I didn't find a database entry for "gek91"
 Warning--I didn't find a database entry for "schaffner12"
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{aip41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{}, control.pages{0}, control.year{N/A}, control.eprint{N/A}, 
@@ -25,7 +26,7 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 You've used 2 entries,
             5918 wiz_defined-function locations,
-            1606 strings with 14674 characters,
+            1607 strings with 14679 characters,
 and the built_in function-call counts, 813 in all, are:
 = -- 12
 > -- 5
@@ -64,4 +65,4 @@ warning$ -- 1
 while$ -- 2
 width$ -- 0
 write$ -- 52
-(There were 2 warnings)
+(There were 3 warnings)

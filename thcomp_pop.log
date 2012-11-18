@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  16 NOV 2012 14:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (Web2C 2011) (format=pdflatex 2012.1.8)  17 NOV 2012 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,7 +242,17 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 21.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 21.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 21.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 21.
- (./thcomp_pop.aux)
+ (./thcomp_pop.aux
+
+LaTeX Warning: Label `fig:densvrcp' multiply defined.
+
+
+Package natbib Warning: Citation `biglari90' multiply defined.
+
+
+Package natbib Warning: Citation `kim04' multiply defined.
+
+)
 \openout1 = `thcomp_pop.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -257,8 +267,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-
-(c:/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+ (c:/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen115
@@ -377,53 +386,90 @@ File: LgammaLn.png Graphic file (type png)
  <use LgammaLn.png>
 Package pdftex.def Info: LgammaLn.png used on input line 118.
 (pdftex.def)             Requested size: 241.84842pt x 109.10757pt.
+
+<densloglog_weak.png, id=41, 584.1825pt x 301.125pt>
+File: densloglog_weak.png Graphic file (type png)
+ <use densloglog_weak.png>
+Package pdftex.def Info: densloglog_weak.png used on input line 124.
+(pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
+
+<densloglog_strong.png, id=42, 584.1825pt x 301.125pt>
+File: densloglog_strong.png Graphic file (type png)
+
+<use densloglog_strong.png>
+Package pdftex.def Info: densloglog_strong.png used on input line 130.
+(pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
  [3 <./fluxandD.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 209.
+ on input line 221.
 
-[4 <./densvrcp.png> <./RadCorrLn.png> <./LgammaLn.png>]
+[4 <./densvrcp.png> <./RadCorrLn.png> <./LgammaLn.png> <./densloglog_weak.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 209.
+ on input line 221.
 
-(./thcomp_pop.bbl) [5] (./thcomp_pop.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+LaTeX Warning: Reference `table1' on page 5 undefined on input line 224.
 
+
+LaTeX Warning: Reference `table3' on page 5 undefined on input line 226.
+
+
+LaTeX Warning: Reference `table5' on page 5 undefined on input line 226.
+
+
+LaTeX Warning: Reference `table4' on page 5 undefined on input line 228.
+
+[5 <./densloglog_strong.png>] (./thcomp_pop.bbl)
+
+Package natbib Warning: There were multiply defined citations.
+
+[6] (./thcomp_pop.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4615 strings out of 493629
- 60404 string characters out of 3146671
- 150416 words of memory out of 3000000
- 7823 multiletter control sequences out of 15000+200000
+ 4684 strings out of 493629
+ 61505 string characters out of 3146671
+ 171270 words of memory out of 3000000
+ 7890 multiletter control sequences out of 15000+200000
  19010 words of font info for 69 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 38i,8n,26p,1450b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texl
-ive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2011/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2011/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2011/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texl
-ive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2011/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2011/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2011/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmss8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssbx10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/tex
-live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2011/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2011/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2011/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti9.pfb>
-Output written on thcomp_pop.pdf (5 pages, 1962086 bytes).
+ 38i,8n,27p,2022b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2011/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2011/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2011/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2011/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2011/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2011/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss10.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.p
+fb><c:/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2011
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2011/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2011/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2011/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti9.pfb>
+Output written on thcomp_pop.pdf (6 pages, 2327043 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
