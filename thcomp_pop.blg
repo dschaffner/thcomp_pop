@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (Web2C 2011)
+This is BibTeX, Version 0.99d (TeX Live 2012/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thcomp_pop.aux
 The style file: aipnum4-1.bst
@@ -10,8 +10,31 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: thcomp_popNotes.bib
-Warning--I didn't find a database entry for "gek91"
+Warning--I didn't find a database entry for "burrell99"
+Warning--I didn't find a database entry for "oost03"
+Warning--I didn't find a database entry for "sakai93"
+Warning--I didn't find a database entry for "burrell97"
+Warning--I didn't find a database entry for "terry00"
+Warning--I didn't find a database entry for "taylor89"
+Warning--I didn't find a database entry for "weynants92"
+Warning--I didn't find a database entry for "weynants98"
+Warning--I didn't find a database entry for "boedo00"
+Warning--I didn't find a database entry for "boedo02"
 Warning--I didn't find a database entry for "schaffner12"
+Warning--I didn't find a database entry for "terry06"
+Warning--I didn't find a database entry for "biglari90"
+Warning--I didn't find a database entry for "shaing90"
+Warning--I didn't find a database entry for "zhang92"
+Warning--I didn't find a database entry for "zhang93"
+Warning--I didn't find a database entry for "ware96"
+Warning--I didn't find a database entry for "ware98"
+Warning--I didn't find a database entry for "terry01"
+Warning--I didn't find a database entry for "kim03"
+Warning--I didn't find a database entry for "kim04"
+Warning--I didn't find a database entry for "leconte06"
+Warning--I didn't find a database entry for "newton07"
+Warning--I didn't find a database entry for "newton11"
+Warning--I didn't find a database entry for "gek91"
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{aip41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{}, control.pages{0}, control.year{N/A}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -26,7 +49,7 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 You've used 2 entries,
             5918 wiz_defined-function locations,
-            1607 strings with 14679 characters,
+            1630 strings with 14851 characters,
 and the built_in function-call counts, 813 in all, are:
 = -- 12
 > -- 5
@@ -65,4 +88,4 @@ warning$ -- 1
 while$ -- 2
 width$ -- 0
 write$ -- 52
-(There were 3 warnings)
+(There were 26 warnings)

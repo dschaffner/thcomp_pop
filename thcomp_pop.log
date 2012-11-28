@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.11.23)  27 NOV 2012 20:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.11.23)  27 NOV 2012 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -236,27 +236,27 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
 LaTeX Info: Redefining \bm on input line 204.
 )
-Class revtex4-1 Info: Patching array package. on input line 21.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 21.
+Class revtex4-1 Info: Patching array package. on input line 22.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 22.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 21.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 21.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 21.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 22.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 22.
  (./thcomp_pop.aux)
 \openout1 = `thcomp_pop.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 (c:/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -321,102 +321,20 @@ e
 ))
 \openout3 = `thcomp_popNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-
-Package natbib Warning: Citation `burrell97' on page 1 undefined on input line 
-45.
-
-
-Package natbib Warning: Citation `oost03' on page 1 undefined on input line 45.
-
-
-
-Package natbib Warning: Citation `terry00' on page 1 undefined on input line 45
-.
-
-
-Package natbib Warning: Citation `taylor89' on page 1 undefined on input line 4
-7.
-
-
-Package natbib Warning: Citation `weynants92' on page 1 undefined on input line
- 47.
-
-
-Package natbib Warning: Citation `weynants98' on page 1 undefined on input line
- 47.
-
-
-Package natbib Warning: Citation `boedo00' on page 1 undefined on input line 47
-.
-
-
-Package natbib Warning: Citation `boedo02' on page 1 undefined on input line 47
-.
-
-
-Package natbib Warning: Citation `schaffner12' on page 1 undefined on input lin
-e 47.
-
-
-Package natbib Warning: Citation `terry00' on page 1 undefined on input line 51
-.
-
-
-Package natbib Warning: Citation `terry06' on page 1 undefined on input line 51
-.
-
-
-Package natbib Warning: Citation `biglari90' on page 1 undefined on input line 
-53.
-
-
-Package natbib Warning: Citation `shaing90' on page 1 undefined on input line 5
-3.
-
-
-Package natbib Warning: Citation `zhang92' on page 1 undefined on input line 67
-.
-
-[1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `ware96' on page 2 undefined on input line 69.
-
-
-
-Package natbib Warning: Citation `ware98' on page 2 undefined on input line 69.
-
-
-
-Package natbib Warning: Citation `terry01' on page 2 undefined on input line 78
-.
-
-
-Package natbib Warning: Citation `kim03' on page 2 undefined on input line 78.
-
-
-Package natbib Warning: Citation `kim04' on page 2 undefined on input line 78.
-
-
-Package natbib Warning: Citation `leconte06' on page 2 undefined on input line 
-80.
-
-
-Package natbib Warning: Citation `newton07' on page 2 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `newton11' on page 2 undefined on input line 8
-0.
+) [1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1616) in paragraph at lines 79--80
+\OMS/cmsy/m/n/10 ^^X$\OT1/cmr/m/n/10 60cm di-am-e-ter cylin-dri-cal plasma pro-
+duced by a
+ []
 
 Package epstopdf Info: Source file: <figure1.eps>
 (epstopdf)                    date: 2012-06-11 17:07:27
@@ -426,171 +344,101 @@ Package epstopdf Info: Source file: <figure1.eps>
 (epstopdf)                    size: 94637 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure1-eps-converted-to.p
 df figure1.eps>
-(epstopdf)             \includegraphics on input line 86.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<figure1-eps-converted-to.pdf, id=19, 728.7225pt x 1019.81pt>
+<figure1-eps-converted-to.pdf, id=18, 728.7225pt x 1019.81pt>
 File: figure1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure1-eps-converted-to.pdf>
-Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 86.
+Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 85.
 (pdftex.def)             Requested size: 241.84842pt x 338.45235pt.
+ [2]
 
+LaTeX Warning: Reference `LgammaL' on page 3 undefined on input line 100.
 
-Package natbib Warning: Citation `gek91' on page 2 undefined on input line 90.
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 90--91
-\OMS/cmsy/m/n/10 ^^X$\OT1/cmr/m/n/10 60cm di-am-e-ter cylin-dri-cal plasma pro-
-duced by a
- []
-
-[2 <./figure1-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:velocity_flowshear' on page 3 undefined on input 
-line 92.
-
-
-Package natbib Warning: Citation `schaffner12' on page 3 undefined on input lin
-e 94.
-
-
-LaTeX Warning: Reference `fig:radcorr' on page 3 undefined on input line 103.
-
-
-LaTeX Warning: Reference `fig:radcorr' on page 3 undefined on input line 103.
-
-
-LaTeX Warning: Reference `LgammaL' on page 3 undefined on input line 105.
-
-
-Package natbib Warning: Citation `leconte06' on page 3 undefined on input line 
-105.
-
-<fluxandD.png, id=38, 451.6875pt x 602.25pt>
+<fluxandD.png, id=23, 451.6875pt x 602.25pt>
 File: fluxandD.png Graphic file (type png)
  <use fluxandD.png>
-Package pdftex.def Info: fluxandD.png used on input line 111.
+Package pdftex.def Info: fluxandD.png used on input line 106.
 (pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
 
-<densvrcp.png, id=39, 451.6875pt x 602.25pt>
+<densvrcp.png, id=24, 451.6875pt x 602.25pt>
 File: densvrcp.png Graphic file (type png)
  <use densvrcp.png>
-Package pdftex.def Info: densvrcp.png used on input line 117.
+Package pdftex.def Info: densvrcp.png used on input line 112.
 (pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
 
-<RadCorrLn.png, id=40, 602.25pt x 602.25pt>
+<RadCorrLn.png, id=25, 602.25pt x 602.25pt>
 File: RadCorrLn.png Graphic file (type png)
  <use RadCorrLn.png>
-Package pdftex.def Info: RadCorrLn.png used on input line 123.
+Package pdftex.def Info: RadCorrLn.png used on input line 118.
 (pdftex.def)             Requested size: 241.84842pt x 241.85144pt.
 
-<LgammaLn.png, id=41, 584.1825pt x 263.5446pt>
+<LgammaLn.png, id=26, 584.1825pt x 263.5446pt>
 File: LgammaLn.png Graphic file (type png)
  <use LgammaLn.png>
-Package pdftex.def Info: LgammaLn.png used on input line 129.
+Package pdftex.def Info: LgammaLn.png used on input line 124.
 (pdftex.def)             Requested size: 241.84842pt x 109.10757pt.
 
-<densloglog_weak.png, id=42, 584.1825pt x 301.125pt>
+<densloglog_weak.png, id=27, 584.1825pt x 301.125pt>
 File: densloglog_weak.png Graphic file (type png)
  <use densloglog_weak.png>
-Package pdftex.def Info: densloglog_weak.png used on input line 135.
+Package pdftex.def Info: densloglog_weak.png used on input line 130.
 (pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
 
-<densloglog_strong.png, id=43, 584.1825pt x 301.125pt>
+<densloglog_strong.png, id=28, 584.1825pt x 301.125pt>
 File: densloglog_strong.png Graphic file (type png)
 
 <use densloglog_strong.png>
-Package pdftex.def Info: densloglog_strong.png used on input line 141.
+Package pdftex.def Info: densloglog_strong.png used on input line 136.
 (pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
- [3]
+ [3 <./figure1-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 228.
+ on input line 223.
 
 [4 <./fluxandD.png> <./densvrcp.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 228.
-
-
-LaTeX Warning: Reference `table1' on page 5 undefined on input line 231.
+ on input line 223.
 
 [5 <./RadCorrLn.png> <./LgammaLn.png> <./densloglog_weak.png> <./densloglog_str
-ong.png>]
-
-LaTeX Warning: Reference `table3' on page 6 undefined on input line 233.
-
-
-LaTeX Warning: Reference `table5' on page 6 undefined on input line 233.
-
-
-Package natbib Warning: Citation `newton11' on page 6 undefined on input line 2
-33.
-
-
-LaTeX Warning: Reference `table4' on page 6 undefined on input line 235.
-
-
-Package natbib Warning: Citation `kim04' on page 6 undefined on input line 237.
-
-
-
-LaTeX Warning: Reference `fig:radcorr' on page 6 undefined on input line 239.
-
-
-LaTeX Warning: Reference `LastBibItem' on page 6 undefined on input line 518.
-
-[6] (./thcomp_pop.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[7] (./thcomp_pop.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ong.png>] [6] (./thcomp_pop.bbl) [7] (./thcomp_pop.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 4719 strings out of 493488
- 62057 string characters out of 3144726
- 152984 words of memory out of 3000000
- 7928 multiletter control sequences out of 15000+200000
- 19010 words of font info for 69 fonts, out of 3000000 for 9000
+ 4658 strings out of 493488
+ 61181 string characters out of 3144726
+ 152264 words of memory out of 3000000
+ 7869 multiletter control sequences out of 15000+200000
+ 17960 words of font info for 66 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,8n,26p,2023b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,27p,2032b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2012/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2012/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2012/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi5.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2012/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2012/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr9.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2012/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2012/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti9.pfb>
-Output written on thcomp_pop.pdf (7 pages, 2338552 bytes).
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2012/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi7.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2012/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2012/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.p
+fb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2012/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti9.pfb>
+Output written on thcomp_pop.pdf (7 pages, 2324634 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
