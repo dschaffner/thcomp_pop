@@ -1,5 +1,5 @@
 %\documentclass[aip,pop,amsmath,amssymb,preprint]{revtex4-1} %preprint version
-\documentclass[aip,pop,amsmath,amssymb,preprint,superscriptaddress]{revtex4-1} %preprint version
+\documentclass[aip,pop,amsmath,amssymb,reprint,superscriptaddress]{revtex4-1} %preprint version
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
@@ -110,7 +110,7 @@ A large annular aluminum limiter was installed in LAPD to provide a parallel bou
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure1.eps}}
-\caption{\label{fig:velocity_flowshear} (a) Diagram of the LAPD device showing annular limiter.  (b) Velocity profiles using plasma potential from swept measurements. (c) Flow at the limiter edge (black, triangles) and mean shearing rate, averaged over $27 < r < 31$cm (red, circles).}
+\caption{\label{fig:velocity_flowshear} (a) Diagram of the LAPD device showing relative location of the annular limiter and basic biasing setup.  (b) Velocity profiles using plasma potential from swept measurements. (c) Flow at the limiter edge (black, triangles) and mean shearing rate, averaged over $27 < r < 31$cm (red, circles).}
 \end{figure}
 
 A recent experiment on the LAPD demonstrated the ability to achieve continuous control of steady-state azimuthal flow and flow shear through the use of these biasable limiters~\cite{schaffner12}. Spontaneous rotation is observed in LAPD in the ion diamagnetic direction.  This spontaneous flow can be reduced and reversed into the  electron diamagnetic direction as the limiter bias is increased. This results in a continuous variation of edge flow and flow shear including zero flow and flow shear states. Shearing rates are acheived up to about five times the turbulent inverse autocorrelation time  $\tau_{ac}^{-1}$ as measured in the unsheared state. Radial particle flux and fluctuation amplitude are reduced as shearing rate is increased and the resulting transport changes cause observable steepening of the density gradient. Figure~\ref{fig:densvrcp} shows the experimental results for measurements of density fluctuation amplitude, radial velocity amplitude and density-radial velocity crossphase as functions of normalized shearing rates. The shearing rates achieved span two regimes: a weak-shear regime where $\gamma_{s}\tau_{ac} < 1$ and a strong-shear regime where $\gamma_{s}\tau_{ac} > 1$. The blue solid lines correspond to the best fits for the strong-shear cases while the green are the best fits for the weak-shear case.  Similar plots for particle flux and diffusivity $D = \Gamma/|\nabla n|$ are shown in Fig.~\ref{fig:fluxandD}.  Error bars of +/-20\% for each quanitity are shown on the plots and used in the fits, reflecting a statistical error from the number of shots used to average the quanity ($\sigma \sim 1/\sqrt{nshots}$).
@@ -132,38 +132,32 @@ Some acheived parameters regimes for the shearing rat and density gradient lengt
 
 \begin{figure}[!htbp]
 \centerline{
-\includegraphics[width=8.5cm]{densvrcp}}
-\caption{\label{fig:densvrcp} Scaling of (a)density fluctuation amplitude, (b)radial velocity fluctuation amplitude, and (c)relative crossphase between density and radial velocity fluctuations. Density and velocity fluctuation are each normalized to the value measured at minimum shear. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime with $\nu = 0.501$ for flux and $\nu = 0.418$ for D. The blue curves correspond to $\gamma_{s}^{\nu}$ fits with $\nu = -1.719$ for flux and $\nu = -1.646$ for D.}
+\includegraphics[width=8.5cm]{figure2.eps}}
+\caption{\label{fig:densvrcp} Scaling of (a)density fluctuation amplitude, (b)radial velocity fluctuation amplitude, and (c)relative crossphase between density and radial velocity fluctuations. Density and velocity fluctuation are each normalized to the value measured at minimum shear. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime. The blue curves correspond to $\gamma_{s}^{\nu}$ fits.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
-\includegraphics[width=8.5cm]{fluxandD}}
+\includegraphics[width=8.5cm]{figure3.eps}}
 \caption{\label{fig:fluxandD} Scaling of (a)radial particle flux and (b)diffusion coefficient each normalized to the value at minimum shear, $\Gamma_{p}^{0} = 1.7\times10^{16} cm^{-2}$ and $D_{0} = 36.7 m^{2}/s$. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime with $\nu = 0.501$ for flux and $\nu = 0.418$ for D. The blue curves correspond to $\gamma_{s}^{\nu}$ fits with $\nu = -1.719$ for flux and $\nu = -1.646$ for D.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
-\includegraphics[width=8.5cm]{RadCorrLn}}
-\caption{\label{fig:radcorr} (a)Radial correlation length normalized to maximum correlation length versus normalized shearing rate with correlation planes of unbiased, zero shear, and high bias states in the inset. (b)Ratio of radial correlation length to density gradient scale length.}
+\includegraphics[width=8.5cm]{figure4.eps}}
+\caption{\label{fig:radcorr} Normalized correlation functions for (a)unbiased state, (b)no shear state, and (c)high bias, high EDD flow state where the black curve represents a decrease of 0.5 from peak. (d)Radial correlation length normalized to maximum correlation length versus normalized shearing rate. (e)Ratio of radial correlation length to density gradient scale length.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
-\includegraphics[width=8.5cm]{LgammaLn}}
+\includegraphics[width=8.5cm]{figure5.eps}}
 \caption{\label{fig:LgammaLn} Ratio of shearing length scale to density gradient length scale versus normalized shearing in the radial region of 27 to 31cm.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
-\includegraphics[width=8.5cm]{densloglog_weak}}
-\caption{\label{fig:densloglog_weak} Log-Log plot of -(density fluctuation amplitude)-1 versus shearing with fit function for weak shear in solid red, Shaing scaling of 2 indicated by dashed red line. Blue line is fit for strong shearing}
-\end{figure}
-
-\begin{figure}[!htbp]
-\centerline{
-\includegraphics[width=8.5cm]{densloglog_strong}}
-\caption{\label{fig:densloglog_strong} Log-Log plot of density fluctuation amplitude versus shearing with fit function for strong shear in solid blue, BDT scaling of -2/3 indicated by dashed blue line and Kim and Diamond scaling of -5/3 indicated by steeper dashed-dotted line.}
+\includegraphics[width=8.5cm]{figure6.eps}}
+\caption{\label{fig:densloglog_strong} Log-Log plot of (a-b)density fluctuation amplitude and (c-d)particle flux versus shearing. Weak shearing fits, (a) and (c), are shown with the solid red lines and a theoretical prediction---dashed line---of $\nu = 2$ is included for comparison of slope (line is manually offset). Strong shearing fits, (b) and (d), are shown with the solid blue lines and theoretical predictions are indicated with the dashed lines.}
 \end{figure}
 
 \begin{table}

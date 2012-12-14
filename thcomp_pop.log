@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.11.23)  14 DEC 2012 00:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.11.23)  14 DEC 2012 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -83,13 +83,13 @@ Class revtex4-1 Info: RevTeX society AIP selected on input line 67.
 Class revtex4-1 Info: Selecting journal pop on input line 7544.
 
 Using journal substyle pop.
-Class revtex4-1 Info: Reading file aps12pt4-1.rtx on input line 7547.
-(c:/texlive/2012/texmf-dist/tex/latex/revtex/aps12pt4-1.rtx
-File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+Class revtex4-1 Info: Reading file aps10pt4-1.rtx on input line 7547.
+(c:/texlive/2012/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
-Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-Class revtex4-1 Info: Overriding 12pt on input line 7547.
+Class revtex4-1 Info: Overriding 10pt on input line 7547.
 
 (c:/texlive/2012/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -330,116 +330,188 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+)
 
-Package natbib Warning: Citation `burrel92' on page 2 undefined on input line 4
+Package natbib Warning: Citation `burrel92' on page 1 undefined on input line 4
 0.
 
 
-Package natbib Warning: Citation `maggs07' on page 2 undefined on input line 43
+Package natbib Warning: Citation `maggs07' on page 1 undefined on input line 42
 .
 
 
-Package natbib Warning: Citation `carter09' on page 2 undefined on input line 4
-3.
+Package natbib Warning: Citation `carter09' on page 1 undefined on input line 4
+2.
 
-[2] [3] [4] [5]
+[1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 1616) in paragraph at lines 93--95
+\OMS/cmsy/m/n/10 ^^X$\OT1/cmr/m/n/10 60cm di-am-e-ter cylin-dri-cal plasma pro-
+duced by a
+ []
+
+[2]
 Package epstopdf Info: Source file: <figure1.eps>
-(epstopdf)                    date: 2012-06-11 17:07:27
-(epstopdf)                    size: 762845 bytes
+(epstopdf)                    date: 2012-12-14 12:20:50
+(epstopdf)                    size: 576924 bytes
 (epstopdf)             Output file: <figure1-eps-converted-to.pdf>
-(epstopdf)                    date: 2012-11-15 23:05:48
-(epstopdf)                    size: 94637 bytes
+(epstopdf)                    date: 2012-12-14 14:32:14
+(epstopdf)                    size: 144832 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure1-eps-converted-to.p
 df figure1.eps>
-(epstopdf)             \includegraphics on input line 103.
+(epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
- <figure1-eps-converted-to.pdf, id=33, 728.7225pt x 1019.81pt>
+ <figure1-eps-converted-to.pdf, id=25, 716.6775pt x 1073.00874pt>
 File: figure1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure1-eps-converted-to.pdf>
-Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 103.
-(pdftex.def)             Requested size: 241.84842pt x 338.45235pt.
- [6 <./figure1-eps-converted-to.pdf>]
-[7] <densvrcp.png, id=56, 451.6875pt x 602.25pt>
-File: densvrcp.png Graphic file (type png)
- <use densvrcp.png>
-Package pdftex.def Info: densvrcp.png used on input line 126.
-(pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
+Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 112.
+(pdftex.def)             Requested size: 241.84842pt x 362.0839pt.
+ [3 <./figure1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure2.eps>
+(epstopdf)                    date: 2012-12-14 13:44:08
+(epstopdf)                    size: 194619 bytes
+(epstopdf)             Output file: <figure2-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-14 14:32:17
+(epstopdf)                    size: 57240 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure2-eps-converted-to.p
+df figure2.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
 
-<fluxandD.png, id=57, 451.6875pt x 602.25pt>
-File: fluxandD.png Graphic file (type png)
- <use fluxandD.png>
-Package pdftex.def Info: fluxandD.png used on input line 132.
-(pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
+<figure2-eps-converted-to.pdf, id=32, 602.25pt x 803.0pt>
+File: figure2-eps-converted-to.pdf Graphic file (type pdf)
 
-<RadCorrLn.png, id=58, 602.25pt x 602.25pt>
-File: RadCorrLn.png Graphic file (type png)
- <use RadCorrLn.png>
-Package pdftex.def Info: RadCorrLn.png used on input line 138.
-(pdftex.def)             Requested size: 241.84842pt x 241.85144pt.
+<use figure2-eps-converted-to.pdf>
+Package pdftex.def Info: figure2-eps-converted-to.pdf used on input line 135.
+(pdftex.def)             Requested size: 241.84842pt x 322.4686pt.
+Package epstopdf Info: Source file: <figure3.eps>
+(epstopdf)                    date: 2012-12-14 13:49:27
+(epstopdf)                    size: 133783 bytes
+(epstopdf)             Output file: <figure3-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-14 14:32:19
+(epstopdf)                    size: 40119 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure3-eps-converted-to.p
+df figure3.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
 
-<LgammaLn.png, id=59, 584.1825pt x 263.5446pt>
-File: LgammaLn.png Graphic file (type png)
- <use LgammaLn.png>
-Package pdftex.def Info: LgammaLn.png used on input line 144.
-(pdftex.def)             Requested size: 241.84842pt x 109.10757pt.
+<figure3-eps-converted-to.pdf, id=33, 602.25pt x 803.0pt>
+File: figure3-eps-converted-to.pdf Graphic file (type pdf)
 
-<densloglog_weak.png, id=60, 584.1825pt x 301.125pt>
-File: densloglog_weak.png Graphic file (type png)
- <use densloglog_weak.png>
-Package pdftex.def Info: densloglog_weak.png used on input line 150.
-(pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
+<use figure3-eps-converted-to.pdf>
+Package pdftex.def Info: figure3-eps-converted-to.pdf used on input line 141.
+(pdftex.def)             Requested size: 241.84842pt x 322.4686pt.
+Package epstopdf Info: Source file: <figure4.eps>
+(epstopdf)                    date: 2012-12-14 13:58:56
+(epstopdf)                    size: 4395874 bytes
+(epstopdf)             Output file: <figure4-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-14 14:32:26
+(epstopdf)                    size: 705726 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure4-eps-converted-to.p
+df figure4.eps>
+(epstopdf)             \includegraphics on input line 147.
+Package epstopdf Info: Output file is already uptodate.
 
-<densloglog_strong.png, id=61, 584.1825pt x 301.125pt>
-File: densloglog_strong.png Graphic file (type png)
+<figure4-eps-converted-to.pdf, id=34, 602.25pt x 753.81625pt>
+File: figure4-eps-converted-to.pdf Graphic file (type pdf)
 
-<use densloglog_strong.png>
-Package pdftex.def Info: densloglog_strong.png used on input line 156.
-(pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
- [8 <./densvrcp.png>] [9 <./fluxandD.png>] [10 <./RadCorrLn.png> <./LgammaLn.pn
-g>] [11 <./densloglog_weak.png> <./densloglog_strong.png>]
+<use figure4-eps-converted-to.pdf>
+Package pdftex.def Info: figure4-eps-converted-to.pdf used on input line 147.
+(pdftex.def)             Requested size: 241.84842pt x 302.71739pt.
+Package epstopdf Info: Source file: <figure5.eps>
+(epstopdf)                    date: 2012-12-14 14:02:05
+(epstopdf)                    size: 50022 bytes
+(epstopdf)             Output file: <figure5-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-14 14:32:28
+(epstopdf)                    size: 16119 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure5-eps-converted-to.p
+df figure5.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
 
-Package natbib Warning: Citation `schaffner11' on page 12 undefined on input li
-ne 219.
+<figure5-eps-converted-to.pdf, id=35, 803.0pt x 602.25pt>
+File: figure5-eps-converted-to.pdf Graphic file (type pdf)
 
-[12] [13] [14]
+<use figure5-eps-converted-to.pdf>
+Package pdftex.def Info: figure5-eps-converted-to.pdf used on input line 153.
+(pdftex.def)             Requested size: 241.84842pt x 181.38399pt.
+Package epstopdf Info: Source file: <figure6.eps>
+(epstopdf)                    date: 2012-12-14 14:26:42
+(epstopdf)                    size: 246893 bytes
+(epstopdf)             Output file: <figure6-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-14 14:32:30
+(epstopdf)                    size: 76610 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure6-eps-converted-to.p
+df figure6.eps>
+(epstopdf)             \includegraphics on input line 159.
+Package epstopdf Info: Output file is already uptodate.
 
-Package natbib Warning: Citation `stabler' on page 15 undefined on input line 2
-80.
+<figure6-eps-converted-to.pdf, id=36, 803.0pt x 602.25pt>
+File: figure6-eps-converted-to.pdf Graphic file (type pdf)
 
-[15] [16] [17] (./thcomp_pop.bbl)
+<use figure6-eps-converted-to.pdf>
+Package pdftex.def Info: figure6-eps-converted-to.pdf used on input line 159.
+(pdftex.def)             Requested size: 241.84842pt x 181.38399pt.
+ [4 <./figure2-eps-converted-to.pdf> <./figure3-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 221.
+
+[5 <./figure4-eps-converted-to.pdf> <./figure5-eps-converted-to.pdf> <./figure6
+-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `carter09' on page 6 undefined on input line 2
+72.
+
+[6]
+
+Package natbib Warning: Citation `stabler' on page 7 undefined on input line 28
+2.
+
+[7] (./thcomp_pop.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[18] (./thcomp_pop.aux) ) 
+[8] (./thcomp_pop.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 4648 strings out of 493488
- 61259 string characters out of 3144726
- 138067 words of memory out of 3000000
- 7874 multiletter control sequences out of 15000+200000
- 14771 words of font info for 54 fonts, out of 3000000 for 9000
+ 4673 strings out of 493488
+ 61636 string characters out of 3144726
+ 144134 words of memory out of 3000000
+ 7884 multiletter control sequences out of 15000+200000
+ 18658 words of font info for 68 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,8n,27p,1887b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2012/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2012/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c
-:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2012/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2012/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti12.pfb>
-Output written on thcomp_pop.pdf (18 pages, 2288418 bytes).
+ 38i,8n,27p,1877b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2012/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2012/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2012/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi5.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2012/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2012/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2012/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
+pfb>
+Output written on thcomp_pop.pdf (8 pages, 1330172 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
