@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.11.23)  29 NOV 2012 15:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.11.23)  13 DEC 2012 01:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,17 +321,25 @@ e
 ))
 \openout3 = `thcomp_popNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
- [5]
+) [1{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `maggs07' on page 2 undefined on input line 43
+.
+
+
+Package natbib Warning: Citation `carter09' on page 2 undefined on input line 4
+3.
+
+[2] [3] [4] [5]
 Package epstopdf Info: Source file: <figure1.eps>
 (epstopdf)                    date: 2012-06-11 17:07:27
 (epstopdf)                    size: 762845 bytes
@@ -340,86 +348,85 @@ Package epstopdf Info: Source file: <figure1.eps>
 (epstopdf)                    size: 94637 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure1-eps-converted-to.p
 df figure1.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
-
-<figure1-eps-converted-to.pdf, id=32, 728.7225pt x 1019.81pt>
+ <figure1-eps-converted-to.pdf, id=33, 728.7225pt x 1019.81pt>
 File: figure1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figure1-eps-converted-to.pdf>
-Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 102.
+Package pdftex.def Info: figure1-eps-converted-to.pdf used on input line 105.
 (pdftex.def)             Requested size: 241.84842pt x 338.45235pt.
  [6 <./figure1-eps-converted-to.pdf>]
-[7] <densvrcp.png, id=55, 451.6875pt x 602.25pt>
+[7] <densvrcp.png, id=56, 451.6875pt x 602.25pt>
 File: densvrcp.png Graphic file (type png)
  <use densvrcp.png>
-Package pdftex.def Info: densvrcp.png used on input line 123.
+Package pdftex.def Info: densvrcp.png used on input line 128.
 (pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
 
-<fluxandD.png, id=56, 451.6875pt x 602.25pt>
+<fluxandD.png, id=57, 451.6875pt x 602.25pt>
 File: fluxandD.png Graphic file (type png)
  <use fluxandD.png>
-Package pdftex.def Info: fluxandD.png used on input line 129.
+Package pdftex.def Info: fluxandD.png used on input line 134.
 (pdftex.def)             Requested size: 241.84842pt x 322.47165pt.
 
-<RadCorrLn.png, id=57, 602.25pt x 602.25pt>
+<RadCorrLn.png, id=58, 602.25pt x 602.25pt>
 File: RadCorrLn.png Graphic file (type png)
  <use RadCorrLn.png>
-Package pdftex.def Info: RadCorrLn.png used on input line 135.
+Package pdftex.def Info: RadCorrLn.png used on input line 140.
 (pdftex.def)             Requested size: 241.84842pt x 241.85144pt.
 
-<LgammaLn.png, id=58, 584.1825pt x 263.5446pt>
+<LgammaLn.png, id=59, 584.1825pt x 263.5446pt>
 File: LgammaLn.png Graphic file (type png)
  <use LgammaLn.png>
-Package pdftex.def Info: LgammaLn.png used on input line 141.
+Package pdftex.def Info: LgammaLn.png used on input line 146.
 (pdftex.def)             Requested size: 241.84842pt x 109.10757pt.
 
-<densloglog_weak.png, id=59, 584.1825pt x 301.125pt>
+<densloglog_weak.png, id=60, 584.1825pt x 301.125pt>
 File: densloglog_weak.png Graphic file (type png)
  <use densloglog_weak.png>
-Package pdftex.def Info: densloglog_weak.png used on input line 147.
+Package pdftex.def Info: densloglog_weak.png used on input line 152.
 (pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
 
-<densloglog_strong.png, id=60, 584.1825pt x 301.125pt>
+<densloglog_strong.png, id=61, 584.1825pt x 301.125pt>
 File: densloglog_strong.png Graphic file (type png)
 
 <use densloglog_strong.png>
-Package pdftex.def Info: densloglog_strong.png used on input line 153.
+Package pdftex.def Info: densloglog_strong.png used on input line 158.
 (pdftex.def)             Requested size: 241.84842pt x 124.66588pt.
  [8 <./densvrcp.png>] [9 <./fluxandD.png>] [10 <./RadCorrLn.png> <./LgammaLn.pn
 g>] [11 <./densloglog_weak.png> <./densloglog_strong.png>] [12] [13] [14] [15] 
-[16] (./thcomp_pop.bbl) [17] (./thcomp_pop.aux)
+[16] (./thcomp_pop.bbl)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+Package natbib Warning: There were undefined citations.
 
-
- ) 
+[17] (./thcomp_pop.aux) ) 
 Here is how much of TeX's memory you used:
- 4632 strings out of 493488
- 60999 string characters out of 3144726
- 138022 words of memory out of 3000000
- 7858 multiletter control sequences out of 15000+200000
+ 4631 strings out of 493488
+ 60989 string characters out of 3144726
+ 138033 words of memory out of 3000000
+ 7857 multiletter control sequences out of 15000+200000
  14771 words of font info for 54 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,8n,27p,2032b,305s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2012/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2012/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2012/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/201
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2012/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2012/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti12.pfb>
-Output written on thcomp_pop.pdf (17 pages, 2272615 bytes).
+ 38i,8n,27p,2090b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2012/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2012/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c
+:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2012/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti12.pfb>
+Output written on thcomp_pop.pdf (17 pages, 2280522 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
