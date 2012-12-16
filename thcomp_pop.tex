@@ -46,7 +46,10 @@ correlation length.  The data show a break in the trend of these
 quantities  when the normalized shearing rate ($\gamma_s = \partial
 V_\theta/\partial r$) is comparable to the turbulent decorrelation
 rate ($1/\tau_{\rm ac}$).  No one model captures the trends in the
-all turbulent quantities for all values of  the shearing rate, but some models successfully match the trend in either the weak  ($\gamma_s \tau_{\rm ac} < 1$) or strong shearing limits ($\gamma_s \tau_{\rm ac} > 1$). 
+all turbulent quantities for all values of  the shearing rate, but
+some models successfully match the trend in either the weak
+($\gamma_s \tau_{\rm ac} < 1$) or strong ($\gamma_s \tau_{\rm ac} >
+1$) shear limits. 
 \end{abstract}
 \maketitle
 
@@ -73,19 +76,19 @@ confinement transitions have been observed in response to biasing and
 this response has been compared to models for shear suppression, in
 particular in work performed by the TEXTOR group~\cite{weynants98,boedo00,boedo02}.
 
-Biasing has been used to induce rotation and transitions in particle
+Biasing has been used to induce rotation and cause transitions in particle
 confinement in the Large Plasma Device
 (LAPD)~\cite{maggs07,carter09}. Recently, a new data set has been
 gathered on LAPD in which the flow shear was continuously varied using
 a biasable limiter~\cite{schaffner12}. These experiments demonstrated
-shear suppression of turbulent transport and provided measurements of a number of turbulent quantities including cross-field particle flux, density and radial $E\times B$ velocity fluctuations, density-velocity crossphase, and radial correlation length. Moreover, the scan included data points in both the weak and strong shearing regime, as defined by the ratio of shearing rate to inverse autocorrelation time.  This provides the ability for comparison to models which make separate predictions for each regime.
+shear suppression of turbulent transport and provided measurements of a number of turbulent quantities including cross-field particle flux, density and radial $E\times B$ velocity fluctuations, density-velocity crossphase, and radial correlation length. Moreover, the scan included data points in both the weak and strong shear regime, as defined by the ratio of shearing rate to inverse autocorrelation time.  This provides the ability for comparison to models which make separate predictions for each regime.
 
 Models based on radial decorrelation of turbulent structures by
 sheared flow are prevalent in the theoretical literature~\cite{biglari90,shaing90,zhang92,zhang93,ware96,ware98,terry01,kim03,kim04,newton11} and provide a
 number of predictions concerning the quantitative scaling of turbulent
 quantities with shear. The basic premise underlying these models is the competition between linear or nonlinear turbulence
 dynamics and the tendency of sheared flows to ``rip apart'' or
-decorrelate turbulent structures; this leads to the potential of reduced
+decorrelate turbulent structures; this leads to reduced
 fluctuation amplitude and decreased radial transport step-size. A
 large number of theoretical models have been developed which use this
 underlying principle. Variation in the predictions of these models
@@ -116,7 +119,7 @@ Two of the earliest models of shear suppression were decorrelation models develo
 \label{eq:BDT_theory}
 \end{equation}
 %
-where $\xi$ can be any quantity such as density or temperature. Conversely, the Shaing model focuses on the weak shearing limit and predicts a scaling of the form:
+where $\xi$ can be any quantity such as density or temperature. Conversely, the Shaing model focuses on the weak shear limit and predicts a scaling of the form:
 %
 \begin{equation}
 \frac{\langle |\tilde{\xi}|^{2} \rangle}{\langle |\tilde{\xi}|^{2} \rangle}_{\gamma_{s}=0} \sim 1- \alpha(\gamma_{s}\tau_{ac})^2
@@ -135,11 +138,11 @@ development of a model for shear suppression of turbulent amplitude which could 
 \label{eq:zm_theory}
 \end{equation}
 %
-The resulting model shows correspondence to the Shaing model in the weak shearing regime while the BDT model can be recovered in the strong shearing regime but only for the case where the diffusion coefficient is constant (independent of fluctuation amplitude). %Furthermore, they extend the model to incorporate the effect of changes in turbulent drive (gradient scale-length), showing that shear suppression of fluctuation amplitude is enhanced by a steeper equilibrium gradient. (I removed this as I don't really go into any comparisons of this extended model -DS)
+The resulting model shows correspondence to the Shaing model in the weak shear regime while the BDT model can be recovered in the strong shear regime but only for the case where the diffusion coefficient is constant (independent of fluctuation amplitude). %Furthermore, they extend the model to incorporate the effect of changes in turbulent drive (gradient scale-length), showing that shear suppression of fluctuation amplitude is enhanced by a steeper equilibrium gradient. (I removed this as I don't really go into any comparisons of this extended model -DS)
 
 Work by Ware and Terry~\cite{ware96,ware98} made predictions for the
-effect of shearing on particle transport specifically in resistive
-pressure-gradient driven turbulence (RGPDT). Their work predicted a decrease in flux as $\Gamma_{p} \sim 1-\gamma_{s}^2$ in the weak shear limit.  Additionally,  the model predicted a decrease in the cosine of the crossphase between density and radial velocity fluctuations of the form $1-\omega_{s}^2$. They too incorporated the modification of the pressure gradient, formulating an expression for shearing suppression of radial particle diffusivity of the form:
+effect of shear on particle transport specifically in resistive
+pressure-gradient driven turbulence (RGPDT). Their work predicted a decrease in flux as $\Gamma_{p} \sim 1-\gamma_{s}^2$ in the weak shear limit.  Additionally,  the model predicted a decrease in the cosine of the crossphase between density and radial velocity fluctuations of the form $1-\omega_{s}^2$. They too incorporated the modification of the pressure gradient, formulating an expression for shear suppression of radial particle diffusivity of the form:
 %
 \begin{equation}
 \frac{D}{D_{\gamma_{s}=0}} \sim 1-\beta(\gamma_{s})^2
@@ -148,18 +151,20 @@ pressure-gradient driven turbulence (RGPDT). Their work predicted a decrease in 
 %
 where $\beta$ is a constant which depends on the linear growth rate and radial mode width.
 
-Further work by Terry, Newman and Ware~\cite{terry01} examined the modification of flux in the strong shearing regime for a non-mode-specific turbulent system, predicting a direct scaling of $\Gamma_{p} \sim \gamma_{s}^{-4}$ overall.  Here fluctuation amplitude reduction contributed one power while crossphase reduction contributed three powers of $\gamma_s$, indicating that, in the strong shearing limit, crossphase modification is the dominant flux suppression mechanism rather than reeducation of the fluctuation amplitude. 
+Further work by Terry, Newman and Ware~\cite{terry01} examined the modification of flux in the strong shear regime for a non-mode-specific turbulent system, predicting a direct scaling of $\Gamma_{p} \sim \gamma_{s}^{-4}$ overall.  Here fluctuation amplitude reduction contributed one power while crossphase reduction contributed three powers of $\gamma_s$, indicating that, in the strong shear limit, crossphase modification is the dominant flux suppression mechanism rather than reduction of the fluctuation amplitude. 
 
-Kim and Diamond~\cite{kim03} recast the decorrelation model to include resonance absorption between the shear flow and fluctuations leading to a much weaker dependence of particle flux on shear, $\Gamma_{p} \sim \gamma_{s}^{-1}$, and even weaker dependence of the crossphase on shear: $\cos(\theta_{nv_{r}}) \sim \gamma_{s}^{-1/6}$.  In this model, fluctuations decreased as $|\tilde{n}|^{2} \sim \gamma_{s}^{-5/3}$. Additional work along these lines~\cite{kim04} considered a more self-consistent model for the turbulence, treating the fluctuating flows dynamically using interchange drive.  This model predicted a decrease in fluctuating radial velocity amplitude as a function of shear which scales as $|\tilde{v_{r}}|^{2} \sim \gamma_{s}^{-3}$ in the weak shear limit, and as $|\tilde{v_{r}}|^{2} \sim \gamma_{s}^{-4}$ in the strong-shearing limit.
+Kim and Diamond~\cite{kim03} recast the decorrelation model to include resonance absorption between the shear flow and fluctuations leading to a much weaker dependence of particle flux on shear, $\Gamma_{p} \sim \gamma_{s}^{-1}$, and even weaker dependence of the crossphase on shear: $\cos(\theta_{nv_{r}}) \sim \gamma_{s}^{-1/6}$.  In this model, fluctuations decreased as $|\tilde{n}|^{2} \sim \gamma_{s}^{-5/3}$. Additional work along these lines~\cite{kim04} considered a more self-consistent model for the turbulence, treating the fluctuating flows dynamically using interchange drive.  This model predicted a decrease in fluctuating radial velocity amplitude as a function of shear which scales as $|\tilde{v_{r}}|^{2} \sim \gamma_{s}^{-3}$ in the weak shear limit, and as $|\tilde{v_{r}}|^{2} \sim \gamma_{s}^{-4}$ in the strong-shear limit.
 
 %Most recently, Leconte et al.~\cite{leconte06} found different scalings for flux, fluctuations and crossphase in the strong shear regime depending on relative shearing strength relative to a characteristic time and shearing spatial gradient relative to the inhomogeneity gradient. 
 %(I removed this refrence ^ since upon closer inspection the relevant results are basically identical to the Kim/Diamond results. I was not correct in my interpretation of their results as having anything to do with a shear length scale -DS).
 
-Finally, work by Newton and Kim has utilized numerical simulations to determine shearing scalings in a generic turbulence model~\cite{newton11} finding that turbulence with a finite correlation time, $\tau_{ac} \geq \gamma_{s}^{-1}$, yields scalings of $D \sim \gamma_{s}^{-1.75}$,$|\tilde{n}|^{2} \sim \gamma_{s}^{-2.41}$, and $\cos(\theta_{nv_{r}}) \sim \gamma_{s}^{-0.22}$ which correspond to the strong shearing regime for this dataset.
+Finally, work by Newton and Kim has utilized numerical simulations
+using a generic turbulence model~\cite{newton11} with a finite
+correlation time, $\tau_{ac} \geq \gamma_{s}^{-1}$. Their work produced scalings of $D \sim \gamma_{s}^{-1.75}$,$|\tilde{n}|^{2} \sim \gamma_{s}^{-2.41}$, and $\cos(\theta_{nv_{r}}) \sim \gamma_{s}^{-0.22}$ which correspond to the strong shear regime for this dataset.
 
 \section{Shear Suppression Experiments}
 
-The Large Plasma Device \cite{gek91} (LAPD) is a 17m long, $\sim$60cm diameter cylindrical plasma produced by a barium-oxide coated nickel cathode. In the experiments reported here, a plasma of density $\sim$$2 \times 10^{12}$ cm$^{-3}$ and peak temperature of ~8eV is produced in a uniform solenoidal magnetic field of 1000G. All measurements reported here were collected using Langmuir probes recording floating potential, $V_{f}$, or ion saturation current, $I_{\rm sat}$. Azimuthal electric field fluctuations, $\tilde{E}_{\theta}$, are found by taking the simultaneous difference in two $V_{f}$ signals separated a small azimuthal distance apart. Turbulent particle flux $\Gamma \propto \left<\tilde{n}_e \tilde{E}_\theta\right>$ is determined through correlating density fluctuations with $\tilde{E}_{\theta}$ where it is assumed that $E_{\theta}$ produces radial $E \times B$ flow. The relative crossphase between fluctuation time-series is determined through the cross-spectrum of the quantities. That is,
+The Large Plasma Device (LAPD) is a 17m long, $\sim$60cm diameter cylindrical plasma produced by a barium-oxide coated nickel cathode~\cite{gek91}. In the experiments reported here, a plasma of density $\sim$$2 \times 10^{12}$ cm$^{-3}$ and peak temperature of ~8eV is produced in a uniform solenoidal magnetic field of 1000G. All measurements reported here were collected using Langmuir probes recording floating potential, $V_{f}$, or ion saturation current, $I_{\rm sat}$. Azimuthal electric field fluctuations, $\tilde{E}_{\theta}$, are found by taking the simultaneous difference in two $V_{f}$ signals separated a small azimuthal distance apart. Turbulent particle flux $\Gamma \propto \left<\tilde{n}_e \tilde{E}_\theta\right>$ is determined through correlating density fluctuations with $\tilde{E}_{\theta}$ where it is assumed that $E_{\theta}$ produces radial $E \times B$ flow. The relative crossphase between fluctuation time-series is determined through the cross-spectrum of the quantities. That is,
 %
 \begin{equation}
 \theta = \tan^{-1}\frac{\langle Q(f,r)\rangle_{f,r}}{\langle C(f,r)\rangle_{f,r}}
@@ -218,9 +223,17 @@ Measurements of the radial correlation length were recorded as a function of she
 %
 %At zero time delay ($\tau = 0$), the function $C(x,y)$ shows the radial and axial extend of the fluctuation correlations giving a quantitative scale to the %turbulence---that is, the smaller the correlation length, the more the plasma turbulence tends to decorrelate the fluctuations as shown in the inset of 
 Figure~\ref{fig:radcorr}(a) shows the normalized correlation function $C(x,y)/C_{\rm max}$ for the unbiased state (flow in the IDD), a minimum shear state, and a high bias state (large EDD flow) with a reference probe located at $x=29.5$cm, $y=0$cm (right in the middle of the shear layer). The black curve represents the contour line where $C(x,y)/C_{\rm max} = 0.5$. The radial correlation length $\Delta r_{c}$ is defined here as the radial width of this black curve through the reference probe location.   The variation of the correlation length versus shearing rate is shown in Figure~\ref{fig:radcorr} (normalized to the maximum radial correlation length calculated for all biases).
-The correlation length is found to decrease substantially with shearing.  A break in the trend of decreasing correlation length is observed for larger shearing rates where the correlation function appears to be dominated by a coherent mode (which also appears in the temporal power spectrum).
+The correlation length is found to decrease substantially with shear.  A break in the trend of decreasing correlation length is observed for larger shearing rates where the correlation function appears to be dominated by a coherent mode (which also appears in the temporal power spectrum).
 
-Some achieved parameter regimes for the shearing rate and density gradient length scales are presented in Figure~\ref{fig:LgammaLn}. The shearing scale length is calculated as $L_{v} = |\nabla \ln(v_{E\times B})|^{-1}$. This value is compared to the density gradient scale length, $L_{n} = |\nabla \ln{n}|^{-1}$ for each bias and mapped to a normalized shearing value. This plot shows that for the all of the strong shearing regime, and nearly half of the weak shearing regime, $L_{n} > L_{v}$. The reverse is true only for the weakest shearing points. In general, the velocity gradient scale length---the physical extent of shearing---decreases much faster than the density gradient scale length with increased shearing rate magnitude and is smaller than the density gradient scale length for most of the dataset.
+Some achieved parameter regimes for the shearing rate and density
+gradient length scales are presented in Figure~\ref{fig:LgammaLn}. The
+azimuthal velocity scale length is calculated as $L_{v} = |\nabla
+\ln(v_{E\times B})|^{-1}$. This value is compared to the density
+gradient scale length, $L_{n} = |\nabla \ln{n}|^{-1}$ as a function of
+normalized shearing rate. This plot shows that for the all of the
+strong shear regime, and nearly half of the weak shearing regime,
+$L_{n} > L_{v}$. The reverse is true only for the weakest shear. In
+general, the velocity gradient scale length decreases much faster than the density gradient scale length with increased shearing rate magnitude and is smaller than the density gradient scale length for most of the dataset.
 
 \section{Experimental Shear Suppression Scaling}
 
@@ -245,19 +258,21 @@ Some achieved parameter regimes for the shearing rate and density gradient lengt
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure5.eps}}
-\caption{\label{fig:LgammaLn} Ratio of velocity gradient length scale to density gradient length scale versus normalized shearing in the radial region of 27 to 31cm.}
+\caption{\label{fig:LgammaLn} Ratio of velocity gradient length scale
+  to density gradient length scale versus normalized shearing rate in the radial region of 27 to 31cm.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure6.eps}}
-\caption{\label{fig:densloglog_strong} Log-Log plot of (a-b)density fluctuation amplitude and (c-d)particle flux versus shearing. Weak shearing fits, (a) and (c), are shown with the solid red lines and a theoretical prediction---dashed line---of $\nu = 2$ is included for comparison of slope (line is manually offset). Strong shearing fits, (b) and (d), are shown with the solid blue lines and theoretical predictions are indicated with the dashed lines.}
+\caption{\label{fig:densloglog_strong} Log-Log plot of (a-b)density
+  fluctuation amplitude and (c-d)particle flux versus shearing rate. Weak shear fits, (a) and (c), are shown with the solid red lines and a theoretical prediction---dashed line---of $\nu = 2$ is included for comparison of slope (line is manually offset). Strong shear fits, (b) and (d), are shown with the solid blue lines and theoretical predictions are indicated with the dashed lines.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure7.eps}}
-\caption{\label{fig:fullrange_fits} Fits over a shearing range spanning both weak and strong regimes for (a) density fluctuation amplitude, (b)particle flux, (c)diffusivity, and (d)crossphase. Red lines correspond to $\sim C\gamma_{s}^{\nu}$ model while the blue curves correspond to the $\sim 1/(1+C\gamma_{s}^{\nu})$ model.}
+\caption{\label{fig:fullrange_fits} Fits over a shear range spanning both weak and strong regimes for (a) density fluctuation amplitude, (b)particle flux, (c)diffusivity, and (d)crossphase. Red lines correspond to $\sim C\gamma_{s}^{\nu}$ model while the blue curves correspond to the $\sim 1/(1+C\gamma_{s}^{\nu})$ model.}
 \end{figure}
 
 \begin{table}
@@ -332,7 +347,7 @@ $\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$   &-0.365  &0.0023    &0.0003\\
 \end{ruledtabular}
 \end{table}
 
-The variation of the experimentally measured quantities with normalized shearing rate was fit to functions motivated by models discussed above: functions of the form $1-\gamma_{s}^{\nu}$ (hereafter M1) and of $\gamma_{s}^{\nu}$ (hereafter M2). For M1, the measured quantity, $y$, was normalized to the value at zero shear, then transformed as $-(1-y)$. Then, taking the logarithm of both sides, a linear fit was made for points in the weak shear and in the strong shear separately. The resulting slope of the fit is taken as the power $\nu$. For M2, no transformation of the quantity $y$ is made before taking the logarithm and fitting. For a complete comparison to the wide range of model predictions made, fits were made for density fluctuation amplitude, radial particle flux, density-radial velocity fluctuation crossphase, radial velocity (ExB) fluctuation amplitude, radial correlation length, and experimentally determined diffusivity ($\Gamma/|\nabla n|$). The best fits are summarized in Table~\ref{tab:table1}-~\ref{tab:table6} for each model type and for both weak and strong shearing. The $\chi^{2}$ and $\chi^{2}/$ndf (where ndf is the number of degrees of freedom) is also indicated in the tables.  For weak shear fits, all points less than the weak shear cutoff $\gamma_{s}\tau_{ac}$<1 are used in the fit. For strong shear, all but the last three points are used. The last points appear to be strongly influenced by the presence of a coherent mode that develops in the highest shear and flow cases and is thought to be a break from the scaling observed in the strong shear regime. For quantities determined by averaging over frequency (e.g. density and velocity fluctuation amplitudes, flux and diffusivity) the frequency band used was 350Hz to 100kHz.
+The variation of the experimentally measured quantities with normalized shearing rate was fit to functions motivated by models discussed above: functions of the form $1-\gamma_{s}^{\nu}$ (hereafter M1) and of $\gamma_{s}^{\nu}$ (hereafter M2). For M1, the measured quantity, $y$, was normalized to the value at zero shear, then transformed as $-(1-y)$. Then, taking the logarithm of both sides, a linear fit was made for points in the weak shear and in the strong shear separately. The resulting slope of the fit is taken as the power $\nu$. For M2, no transformation of the quantity $y$ is made before taking the logarithm and fitting. For a complete comparison to the wide range of model predictions made, fits were made for density fluctuation amplitude, radial particle flux, density-radial velocity fluctuation crossphase, radial velocity (ExB) fluctuation amplitude, radial correlation length, and experimentally determined diffusivity ($\Gamma/|\nabla n|$). The best fits are summarized in Table~\ref{tab:table1}-~\ref{tab:table6} for each model type and for both weak and strong shear. The $\chi^{2}$ and $\chi^{2}/$ndf (where ndf is the number of degrees of freedom) is also indicated in the tables.  For weak shear fits, all points less than the weak shear cutoff $\gamma_{s}\tau_{ac}$<1 are used in the fit. For strong shear, all but the last three points are used. The last points appear to be strongly influenced by the presence of a coherent mode that develops in the highest shear and flow cases and is thought to be a break from the scaling observed in the strong shear regime. For quantities determined by averaging over frequency (e.g. density and velocity fluctuation amplitudes, flux and diffusivity) the frequency band used was 350Hz to 100kHz.
 
 The log-log plots highlight the break in the trend between the weak and
 strong shear regimes. It should be noted that in addition to turbulent
@@ -340,12 +355,12 @@ quantities showing a different trend with shear below and above a
 normalized shearing rate of unity, at the same time, the density
 gradient scale length also shows a marked change in
 behavior~\cite{schaffner12}.  The gradient scale length decreases
-rapidly (increasing pressure-gradient drive) in the weak shearing
+rapidly (increasing pressure-gradient drive) in the weak shear
 regime followed by saturation in the strong shear regime (constant
-turbulent drive with increased shearing). Therefore care has to be taken in interpreting the change in the trends plotted above: it could be occurring due to a change in the shearing regime but also could be due to the change in trend for the turbulence drive.
+turbulent drive with increased shear). Therefore care has to be taken in interpreting the change in the trends plotted above: it could be occurring due to a change in the shear regime but also could be due to the change in trend for the turbulence drive.
 
 Lastly, fits were made a range of shearing rate that spanned
-portions of both the weak and strong shearing regimes; specifically, a
+portions of both the weak and strong shear regimes; specifically, a
 range that included all but the lowest two shearing rate values and
 the three highest shearing rate values (again, dropping the last three to avoid any influence of the coherent mode). The models used are M2 and a third model based on the Zhang and Mahajan interpolated form ~\ref{eq:zm_theory} which was designed to describe both weak and shear scaling (hereafter M3). Fits and $\chi^{2}$ values are displayed for density fluctuation amplitude, particle flux, diffusivity, and crossphase in Table~\ref{tab:table7} and are shown plotted against the data in Figure~\ref{fig:fullrange_fits}.
 
@@ -364,7 +379,10 @@ $\sim C\gamma_{s}^\nu$&$\gamma_{s}\tau_{ac}>1$ &-0.113 &3.7040 &0.3370\\
 \end{table}
 
 \begin{table}
-\caption{\label{tab:table7}Power law fits for all quantities over a range that spans both weak and strong shearing. The smallest two shearing points are excluded to improve the fitting routine and the three highest shearing point are excluded to avoid effects of the coherent mode.}
+\caption{\label{tab:table7}Power law fits for all quantities over a
+  range that spans both weak and strong shear. The smallest two
+  shearing rate values are excluded to improve the fitting routine and
+  the three highest shearing rate values are excluded to avoid effects of the coherent mode.}
 \begin{ruledtabular}
 \begin{tabular}{clccc}
 %One&Two&\mbox{Three}&\mbox{Four}&\mbox{Five}\\
@@ -387,9 +405,9 @@ $cos(\theta_{nv_{r}})$               & $\sim C\gamma_{s}^\nu$ &-0.102   &0.0340 
 
 \subsection{Density and Velocity Fluctuations}
 
-The best fits for scaling of density fluctuation amplitude are shown in Table~\ref{tab:table1}. For the weak shear regime, the $\chi^{2}$ values suggest M2 to be a slightly better fit to the data than M1. Though M1 is not used for prediction of strong shear scaling in the literature, a fit was made to it here for completeness; still, as with the weak shearing regime, values of $\chi^{2}$ show M2 to be a better model for the strong shearing regime as well.
+The best fits for scaling of density fluctuation amplitude are shown in Table~\ref{tab:table1}. For the weak shear regime, the $\chi^{2}$ values suggest M2 to be a slightly better fit to the data than M1. Though M1 is not used for prediction of strong shear scaling in the literature, a fit was made to it here for completeness; still, as with the weak shear regime, values of $\chi^{2}$ show M2 to be a better model for the strong shear regime as well.
 
-The $\nu = -0.512$ fit for M2 in the strong shearing limit is reasonably close to the BDT prediction of $-(2/3)$. However, it should be reiterated that BDT assumes a fixed turbulence drive and that in this dataset, the gradient scale length decreases substantially as shearing is increased, resulting in an increase in turbulent drive.  This actually implies a stronger than BDT scaling of fluctuation amplitude suppression overall. The fit scaling is much smaller than that predicted by Kim/Diamond ($\nu = -5/3$) and Newton/Kim ($\nu = -2.41$). For M2 weak shearing, the experimental fit of $\nu = -0.116$ also suggests weaker scaling than the prediction by Kim/Diamond of $-(2/3)$.
+The $\nu = -0.512$ fit for M2 in the strong shear limit is reasonably close to the BDT prediction of $-(2/3)$. However, it should be reiterated that BDT assumes a fixed turbulence drive and that in this dataset, the gradient scale length decreases substantially as shear is increased, resulting in an increase in turbulent drive.  This actually implies a stronger than BDT scaling of fluctuation amplitude suppression overall. The fit scaling is much smaller than that predicted by Kim/Diamond ($\nu = -5/3$) and Newton/Kim ($\nu = -2.41$). For M2 weak shear, the experimental fit of $\nu = -0.116$ also suggests weaker scaling than the prediction by Kim/Diamond of $-(2/3)$.
 
 A prediction for the scaling of radial velocity fluctuation amplitude is only made by Kim and Diamond~\cite{kim04} in the dynamically evolved case. Fits, listed in Table~\ref{tab:table2}, suggest a much weaker scaling than predicted for both weak and strong shear. The weak shear fit actually shows a slight increase in fluctuation amplitude rather than a $\nu = -3$ scaling while in the strong shear regime a fit of $\nu = -0.866 << -4$ is found.
 
@@ -397,9 +415,9 @@ From fits over the full range of shearing rates, shown in Table~\ref{tab:table7}
 
 \subsection{Flux and Diffusivity}
 
-Particle flux and diffusivity fits and $\chi^{2}$ results are shown in Table~\ref{tab:table3} and ~\ref{tab:table4} respectively. Like density fluctuations, M2 seems to be slightly better than M1 for fitting data in the weak shear limit based on $\chi^{2}$ values.  However, for strong shear, the M1 model actually has a much lower $\chi^{2}$ the M2 model, though M1 is not derived in the strong shearing limit in the literature. Despite the higher $\chi^{2}$, the fit of $\nu = -1.719$ falls in between the extremes of predictions of $\nu = -1$ and $\nu = -4$. The weak shear fit of $\nu = -0.111$ falls far short of the Kim/Diamond M2 prediction of $\nu = -1$. In addition to being the less well-fitted model, the predicted exponent for M1 in the weak shearing limit is also far less than the Terry and Ware value of $\nu = 2$.
+Particle flux and diffusivity fits and $\chi^{2}$ results are shown in Table~\ref{tab:table3} and ~\ref{tab:table4} respectively. Like density fluctuations, M2 seems to be slightly better than M1 for fitting data in the weak shear limit based on $\chi^{2}$ values.  However, for strong shear, the M1 model actually has a much lower $\chi^{2}$ the M2 model, though M1 is not derived in the strong shear limit in the literature. Despite the higher $\chi^{2}$, the fit of $\nu = -1.719$ falls in between the extremes of predictions of $\nu = -1$ and $\nu = -4$. The weak shear fit of $\nu = -0.111$ falls far short of the Kim/Diamond M2 prediction of $\nu = -1$. In addition to being the less well-fitted model, the predicted exponent for M1 in the weak shear limit is also far less than the Terry and Ware value of $\nu = 2$.
 
-Diffusivity, like flux, has lower $\chi^{2}$ values for M2 with weak shearing and for M1 with strong shearing. The only predictions for $D$ come from Terry and Ware with a functional form like M1 and a numerical simulation result from Newton and Kim~\cite{newton11} for evolved turbulence with a finite correlation time. The experimental fit of $\nu = 0.418$ again falls short of the Terry/Ware predicted $\nu = 2$, though the M2 fit in the strong shearing limit with $\nu = -1.646$ is fairly close to the Newton/Kim predicted value of $\nu = -1.75$.
+Diffusivity, like flux, has lower $\chi^{2}$ values for M2 with weak shear and for M1 with strong shear. The only predictions for $D$ come from Terry and Ware with a functional form like M1 and a numerical simulation result from Newton and Kim~\cite{newton11} for evolved turbulence with a finite correlation time. The experimental fit of $\nu = 0.418$ again falls short of the Terry/Ware predicted $\nu = 2$, though the M2 fit in the strong shear limit with $\nu = -1.646$ is fairly close to the Newton/Kim predicted value of $\nu = -1.75$.
 
 The full range results for flux and diffusivity again suggest a better fit for M2 over M3 and an even better fit for M2 than in the strong shear only case. The resulting M2 exponent for flux appears to be an average between the exponents for the weak and strong shear fits suggesting that the better $chi^{2}$ is a result of averaging the good fit (weak shear) and the poor fit (strong shear). The M2 diffusivity fit of $\nu = -0.938$ is somewhat worse than in the strong shear alone and further away from the predicted value.
 
@@ -407,11 +425,16 @@ The full range results for flux and diffusivity again suggest a better fit for M
 
 \subsection{Crossphase and Correlation Length}
 
-Fits for the scaling of cosine of the crossphase between density and radial velocity fluctuations are shown in Table~\ref{tab:table5}. M2 is found to fit better than M1 for both weak and strong shearing limits. The M2 fit in the weak limit of $\nu = -0.02$ and M2 fit in the strong limit of $\nu = -0.365$ both tend to support the prediction of mild scaling with crossphase made by Kim/Diamond with $\nu = -(1/6)$ and Newton/Kim with $\nu = -0.22$, rather then the large scaling of $\nu = -3$ made by Terry~\cite{terry01}. In fact, the full range fit of M2 for crossphase of $\nu = -0.102$ is in excellent agreement with the Kim/Diamond fit of $\nu = -(1/6)$ which is predicted for \textit{both} weak and strong shear.
+Fits for the scaling of cosine of the crossphase between density and radial velocity fluctuations are shown in Table~\ref{tab:table5}. M2 is found to fit better than M1 for both weak and strong shear limits. The M2 fit in the weak limit of $\nu = -0.02$ and M2 fit in the strong limit of $\nu = -0.365$ both tend to support the prediction of mild scaling with crossphase made by Kim/Diamond with $\nu = -(1/6)$ and Newton/Kim with $\nu = -0.22$, rather then the large scaling of $\nu = -3$ made by Terry~\cite{terry01}. In fact, the full range fit of M2 for crossphase of $\nu = -0.102$ is in excellent agreement with the Kim/Diamond fit of $\nu = -(1/6)$ which is predicted for \textit{both} weak and strong shear.
 
-It should be pointed out that the variation of cross-phase with shearing in this dataset is markedly different than what was observed in an earlier LAPD experiment where flow was driven by biasing the vacuum chamber wall~\cite{carter09}.  This previous experiment was performed at lower magnetic field and at larger bias, resulting in a stronger $E\times B$ rotation and much stronger normalized shearing ($\gamma_s\tau{\rm ac} \sim 20$).  In that work a strong modification of cross-phase was observed (with little to no amplitude reduction).  
+It should be pointed out that the variation of cross-phase with shear
+in this dataset is markedly different than what was observed in an
+earlier LAPD experiment where flow was driven by biasing the vacuum
+chamber wall~\cite{carter09}.  This previous experiment was performed
+at lower magnetic field and at larger bias, resulting in a stronger
+$E\times B$ rotation and much stronger normalized shearing rate ($\gamma_s\tau{\rm ac} \sim 20$).  In that work a strong modification of cross-phase was observed (with little to no amplitude reduction).  
 
-Finally, a fit to radial correlation length is made and compared to the prediction made by BDT~\cite{biglari90}. Neither the weak shear fit of $\nu = -0.290$ nor the strong shear of $\nu = -0.113$ is unreasonably far from the predicted value of $\nu = -1/3$ though the $\chi^{2}$ values do not suggest a great fit to either model. It should again be noted that these correlation lengths are measured in the steady-state period when the density gradient scale length will have already adjusted due to the change in transport. Thus, this decrease in radial correlation length could be due to the turbulence adjusting to the new gradient scale length rather than a direct response to shearing.  In Figure~\ref{fig:radcorr}(b) the ratio of the radial correlation length to the density gradient scale length is shown, indicating that this ratio remains constant with shearing rate. In order to evaluate the effect of shearing rate on radial correlation length independent of changes to the gradient scale length, the correlation length could be studied in the transient phase after the flow is turned on but before the profile has had time to steepen. Investigation of the dynamics of the transition will be the subject of future work. 
+Finally, a fit to radial correlation length is made and compared to the prediction made by BDT~\cite{biglari90}. Neither the weak shear fit of $\nu = -0.290$ nor the strong shear of $\nu = -0.113$ is unreasonably far from the predicted value of $\nu = -1/3$ though the $\chi^{2}$ values do not suggest a great fit to either model. It should again be noted that these correlation lengths are measured in the steady-state period when the density gradient scale length will have already adjusted due to the change in transport. Thus, this decrease in radial correlation length could be due to the turbulence adjusting to the new gradient scale length rather than a direct response to shear.  In Figure~\ref{fig:radcorr}(b) the ratio of the radial correlation length to the density gradient scale length is shown, indicating that this ratio remains constant with shearing rate. In order to evaluate the effect of shearing rate on radial correlation length independent of changes to the gradient scale length, the correlation length could be studied in the transient phase after the flow is turned on but before the profile has had time to steepen. Investigation of the dynamics of the transition will be the subject of future work. 
 
 \section{Discussion}
 
@@ -428,7 +451,7 @@ diffusivity. Third, the data clearly supports the prediction that
 density fluctuation amplitude is more strongly suppressed than the
 crossphase and thus makes a more significant contribution to the
 suppression of radial transport.  However it should be noted that at
-much stronger shearing (in previous LAPD datasets), dominant
+much stronger shear (in previous LAPD datasets), dominant
 modification of crossphase is observed.  Finally, as indicated by the
 wide range of predictions, the scaling of shear suppression may be
 dependent on the nature of the turbulence used in the model. Many of
