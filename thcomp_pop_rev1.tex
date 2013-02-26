@@ -42,7 +42,7 @@ validation of shear suppression models. Motivated by these models,
 power-law fits are made to the density and radial velocity fluctuation
 amplitudes, particle flux, density-potential crossphase and radial
 correlation length.  The data show a break in the trend of these
-quantities  when the normalized shearing rate ($\gamma_s = \partial
+quantities  when the shearing rate ($\gamma_s = \partial
 V_\theta/\partial r$) is comparable to the turbulent decorrelation
 rate ($1/\tau_{\rm ac}$).  No one model captures the trends in the
 all turbulent quantities for all values of  the shearing rate, but
@@ -111,6 +111,8 @@ This paper is organized as follows.  A brief review of shear decorrelation model
 
 \section{Models of Shear Suppression}
 
+The models presented here predict the suppression of various quantities as functions of shearing rate, $\gamma_{s} = d/dr(V_{\theta})$, normalized to the autocorrelation time, or decorrelation time, $\tau_{ac}$.
+
 Two of the earliest models of shear suppression were decorrelation models developed by Biglari, Diamond, Terry~\cite{biglari90} (hereafter BDT) and Shaing~\cite{shaing90}. The BDT theory presents a generalized analysis of the transport of a passive scalar in a mean sheared flow in the strong-shear regime with constant turbulent drive (pressure gradient). The BDT model predicts that normalized fluctuation amplitude scales directly with shear to the -2/3 power:
 %
 \begin{equation}
@@ -173,7 +175,7 @@ G(f,r) = \hat{x}^{\ast}(f,r)\hat{y}(f,r)
 \label{eq:crossspectrum}
 \end{equation}
 %
-The cross-spectrum is first averaged over frequencies to power-weight the crossphase signal, and then averaged radially, before the phase is determined using ~\ref{eq:crossphase}. Finally, steady-state azimuthal flow, $V_{\theta}$ is determined through the radial derivative of plasma potential profiles measured using a swept-Langmuir probe technique again assuming only $E \times B$ flow. The shearing rate is computed as $\gamma_{s} = d/dr(V_{\theta})$.
+The cross-spectrum is first averaged over frequencies to power-weight the crossphase signal, and then averaged radially, before the phase is determined using ~\ref{eq:crossphase}. Finally, steady-state azimuthal flow, $V_{\theta}$ is determined through the radial derivative of plasma potential profiles measured using a swept-Langmuir probe technique again assuming only $E \times B$ flow. The shearing rate is computed as $\gamma_{s} = d/dr(V_{\theta})$. The normalization, $\tau_{ac}$, is determined by finding the width of the autocorrelation function of the density time series at zero shearing rate.
 
 A large annular aluminum limiter was installed in LAPD to provide a parallel boundary condition for the edge plasma and is biased relative to the cathode of the plasma source to control plasma potential and cross-field flow.  A diagram of the limiter arrangement and biasing circuit is shown in Fig.~\ref{fig:velocity_flowshear}(a).
 
@@ -212,7 +214,7 @@ error from the number of shots used to average the quantity ($\sigma
 
 Measurements of the radial correlation length were recorded as a function of shearing rate (applied bias) using a two-probe correlation technique. A reference probe collecting $I_{\rm sat}$ is kept stationary at a particular axial and radial location within LAPD. A second Langmuir probe situated at an axial point closer to the cathode is moved shot-to-shot in a rectangular grid around the radial location of the reference probe.  The cross-field cross-correlation function of these two measurements is computed shot-to-shot for a delay time $\tau$ as $C(x,y,\tau) = \langle I_{\rm ref}(x,y,t)I_{\rm mot}(x,y,t+\tau)\rangle$.
 
-Figure~\ref{fig:radcorr}(a) shows the normalized correlation function $C(x,y)/C_{\rm max}$ for the unbiased state (flow in the IDD), a minimum shear state, and a high bias state (large EDD flow) with a reference probe located at $x=29.5$cm, $y=0$cm (right in the middle of the shear layer). The black curve represents the contour line where $C(x,y)/C_{\rm max} = 0.5$. The radial correlation length $\Delta r_{c}$ is defined here as the radial width of this black curve through the reference probe location.   The variation of the correlation length versus shearing rate is shown in Figure~\ref{fig:radcorr} (normalized to the maximum radial correlation length calculated for all biases).
+Figure~\ref{fig:radcorr}(a) shows the normalized correlation function $C(x,y)/C_{\rm max}$ for the unbiased state (flow in the IDD), a minimum shear state, and a high bias state (large EDD flow) with a reference probe located at $x=29.5$cm, $y=0$cm (right in the middle of the shear layer). The black curve represents the contour line where $C(x,y)/C_{\rm max} = 0.5$. The radial correlation length $\Delta r_{c}$ is defined here as the radial width of this black curve through the reference probe location.   The variation of the correlation length versus shearing rate is shown in Figure~\ref{fig:radcorr} (normalized to the maximum radial correlation length calculated for all biases, $r_max = 5.5$cm).
 The correlation length is found to decrease substantially with shear.  A break in the trend of decreasing correlation length is observed for larger shearing rates where the correlation function appears to be dominated by a coherent mode (which also appears in the temporal power spectrum).
 
 Some achieved parameter regimes for the shearing rate and density
@@ -230,19 +232,19 @@ general, the velocity gradient scale length decreases much faster than the densi
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure2.eps}}
-\caption{\label{fig:densvrcp} (Color online) Scaling of (a)density fluctuation amplitude, (b)radial velocity fluctuation amplitude, and (c)density-radial velocity crossphase. Density and velocity fluctuations are each normalized to the value measured at minimum shear. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime. The blue curves correspond to $\gamma_{s}^{\nu}$ fits.}
+\caption{\label{fig:densvrcp} (Color online) Scaling of (a)density fluctuation amplitude, (b)radial velocity fluctuation amplitude, and (c)density-radial velocity crossphase. Density and velocity fluctuations are each normalized to the value measured at minimum shear. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime. The blue curves correspond to $\gamma_{s}^{\nu}$ fits. The last three points in each plot are not included in the fits do to potential influence of the coherent mode at high shearing rate.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure3.eps}}
-\caption{\label{fig:fluxandD} (Color online) Scaling of (a)radial particle flux and (b)diffusion coefficient each normalized to the value at minimum shear, $\Gamma_{p}^{0} = 1.7\times10^{16} cm^{-2}$ and $D_{0} = 36.7 m^{2}/s$. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime with $\nu = 0.501$ for flux and $\nu = 0.418$ for D. The blue curves correspond to $\gamma_{s}^{\nu}$ fits with $\nu = -1.719$ for flux and $\nu = -1.646$ for D.}
+\caption{\label{fig:fluxandD} (Color online) Scaling of (a)radial particle flux and (b)diffusion coefficient each normalized to the value at minimum shear, $\Gamma_{p}^{0} = 1.7\times10^{16} cm^{-2}$ and $D_{0} = 36.7 m^{2}/s$. The green curves correspond to $1-\gamma_{s}^{\nu}$ fits of the weak shear regime with $\nu = 0.501$ for flux and $\nu = 0.418$ for D. The blue curves correspond to $\gamma_{s}^{\nu}$ fits with $\nu = -1.719$ for flux and $\nu = -1.646$ for D. The last three points in each plot are not included in the fits do to potential influence of the coherent mode at high shearing rate.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure4.eps}}
-\caption{\label{fig:radcorr} (Color online) Normalized correlation functions for (a)unbiased, IDD flow state, (b)no shear state, and (c)high bias, high EDD flow state where the black curve represents a decrease of 0.5 from peak. (d)Radial correlation length normalized to maximum correlation length versus normalized shearing rate with M2 fits for weak (green) and strong (blue) shear. (e)Ratio of radial correlation length to density gradient scale length.}
+\caption{\label{fig:radcorr} (Color online) Normalized correlation functions for (a)unbiased, IDD flow state, (b)no shear state, and (c)high bias, high EDD flow state where the black curve represents a decrease of 0.5 from peak. (Color scale indicates correlation for all three biases). (d)Radial correlation length normalized to maximum correlation length (5.5cm) versus normalized shearing rate with M2 fits for weak (green) and strong (blue) shear. (e)Ratio of radial correlation length to density gradient scale length.}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -256,7 +258,7 @@ general, the velocity gradient scale length decreases much faster than the densi
 \centerline{
 \includegraphics[width=8.5cm]{figure6.eps}}
 \caption{\label{fig:densloglog_strong} (Color online) Log-Log plot of (a-b)density
-  fluctuation amplitude and (c-d)particle flux versus shearing rate. Weak shear fits, (a) and (c), are shown with the solid red lines and a theoretical prediction---dashed line---of $\nu = 2$ is included for comparison of slope (line is manually offset). Strong shear fits, (b) and (d), are shown with the solid blue lines and theoretical predictions are indicated with the dashed lines.}
+  fluctuation amplitude and (c-d)particle flux versus shearing rate. Weak shear fits, (a) and (c), are shown with the solid red lines and a theoretical prediction---dashed line---of $\nu = 2$ is included for comparison of slope (line is manually offset). Strong shear fits, (b) and (d), are shown with the solid blue lines and theoretical predictions are indicated with the dashed lines. The last three points in each plot are not included in the fits do to potential influence of the coherent mode at high shearing rate}
 \end{figure}
 
 \begin{figure}[!htbp]
