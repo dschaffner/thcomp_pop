@@ -173,16 +173,36 @@ G(f,r) = \hat{x}^{\ast}(f,r)\hat{y}(f,r)
 \label{eq:crossspectrum}
 \end{equation}
 %
-The cross-spectrum is first averaged over frequencies to power-weight the crossphase signal, and then averaged radially, before the phase is determined using ~\ref{eq:crossphase}. Finally, steady-state azimuthal flow, $V_{\theta}$ is determined through the radial derivative of plasma potential profiles measured using a swept-Langmuir probe technique again assuming only $E \times B$ flow. A full definition of shearing rate in cylindrical geometry is written as~\cite{hahm94}
+The cross-spectrum is first averaged over frequencies to power-weight
+the crossphase signal, and then averaged radially, before the phase is
+determined using ~\ref{eq:crossphase}. Finally, steady-state azimuthal
+flow, $V_{\theta}$ is determined through the radial derivative of
+plasma potential profiles measured using a swept-Langmuir probe
+technique again assuming only $E \times B$ flow. The shearing rate in
+a cylinder has been defined by many authors as 
+
 %
 \begin{equation}
-\gamma_{s} = \frac{\Delta r_{0}}{\Delta \theta} \frac{\partial}{\partial r}\left(\frac{V_{\theta}}{r}\right)
+\gamma_{s} = r\frac{\partial }{\partial r}\frac{V_{\theta}}{r} =
+\partial{\frac{V_\theta}{r} -\frac{V_\theta}{r} 
 \label{eq:shearfull}
 \end{equation}
 %
-with $\Delta r_{0}$ is the radial correlation length and $r\Delta \theta$ the azimuthal correlation length. A correction of the order $V_{\theta}/r^{2}$ can be dropped out for radii on the order of 30cm as in this experiment. The measured ratio of $\Delta r_{0}/r\Delta \theta$ is generally close to one, but can vary with bias. Nevertheless, for experimental simplicity, the shearing rate for the data presented here is computed as $\gamma_{s} = d/dr(V_{\theta})$.
+This definition results in zero shearing rate for rigid body rotation
+in a cylinder.  In these experiments, the flow profiles are far from
+rigid body and measurements are performed at large radius ($r\sim
+30$cm).  Therefore the $V_\theta/r$ term is very small and a local
+definition of shearing rate is reasonable.  Therefore the shearing
+rate definition adopted for the data presented here is computed as
+$\gamma_{s} = \partial V_\theta/\partial r$.
 
-The normalization, $\tau_{ac}$, is determined by finding the width of the autocorrelation function of the density time series at zero shearing rate. FFT quantities are calculated over a time range of 3.2ms. The plasma potential is determined from voltage sweeps 2.5ms long.
+The shearing rate is normalized using the autocorrelation time or the
+turbulence $\tau_{ac}$. This is determined by finding the width of the
+autocorrelation function of the density time series at zero shearing
+rate. Spectral calculations (FFT) are performed using a time window of
+3.2ms (the flat-top of the bias-driven flow phase). The plasma
+potential is determined from Langmuir probe sweeps 2.5ms long during
+the flat-top period.
 
 A large annular aluminum limiter was installed in LAPD to provide a parallel boundary condition for the edge plasma and is biased relative to the cathode of the plasma source to control plasma potential and cross-field flow.  A diagram of the limiter arrangement and biasing circuit is shown in Fig.~\ref{fig:velocity_flowshear}(a).
 
@@ -213,7 +233,8 @@ reduced and reversed into the electron diamagnetic drift direction (EDD) as the
 limiter bias is increased. This results in a continuous variation of
 edge flow and flow shear including zero flow and flow shear
 states. Shearing rates are achieved up to about five times the
-turbulent inverse autocorrelation time or decorrelation time---$\tau_{ac}^{-1}$---as measured
+turbulent inverse autocorrelation time or decorrelation time
+($\tau_{ac}^{-1}$) as measured
 in the state with minimum shearing rate. Radial particle flux and
 fluctuation amplitude are reduced as shearing rate is increased and
 the resulting transport changes cause observable steepening of the
