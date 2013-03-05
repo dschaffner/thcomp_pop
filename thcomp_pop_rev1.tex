@@ -41,7 +41,7 @@ capabilities on LAPD makes the experiment a useful testbed for
 validation of shear suppression models. Motivated by these models,
 power-law fits are made to the density and radial velocity fluctuation
 amplitudes, particle flux, density-potential crossphase and radial
-correlation length.  The data show a break in the trend of these
+correlation length.  The data shows a break in the trend of these
 quantities  when the shearing rate ($\gamma_s = \partial
 V_\theta/\partial r$) is comparable to the turbulent decorrelation
 rate ($1/\tau_{\rm ac}$).  No one model captures the trends in the
@@ -175,16 +175,15 @@ G(f,r) = \hat{x}^{\ast}(f,r)\hat{y}(f,r)
 %
 The cross-spectrum is first averaged over frequencies to power-weight
 the crossphase signal, and then averaged radially, before the phase is
-determined using ~\ref{eq:crossphase}. Finally, steady-state azimuthal
-flow, $V_{\theta}$ is determined through the radial derivative of
+determined using Eq.~\ref{eq:crossphase}. Finally, steady-state azimuthal
+flow, $V_{\theta}$, is determined through the radial derivative of
 plasma potential profiles measured using a swept-Langmuir probe
 technique again assuming only $E \times B$ flow. The shearing rate in
-a cylinder has been defined by many authors as 
-
+a cylinder has been defined by many authors~\cite{biglari90,hahm94} as 
 %
 \begin{equation}
-\gamma_{s} = r\frac{\partial }{\partial r}\frac{V_{\theta}}{r} =
-\partial{\frac{V_\theta}{r} -\frac{V_\theta}{r} 
+\gamma_{s} = r\frac{\partial}{\partial r}\frac{V_{\theta}}{r} =
+\frac{\partial V_\theta}{\partial r} - \frac{V_\theta}{r} 
 \label{eq:shearfull}
 \end{equation}
 %
@@ -192,7 +191,7 @@ This definition results in zero shearing rate for rigid body rotation
 in a cylinder.  In these experiments, the flow profiles are far from
 rigid body and measurements are performed at large radius ($r\sim
 30$cm).  Therefore the $V_\theta/r$ term is very small and a local
-definition of shearing rate is reasonable.  Therefore the shearing
+definition of shearing rate is reasonable and has been used in other experimental work~\cite{boedo00,boedo02,oost03,maggs07}.  Therefore the shearing
 rate definition adopted for the data presented here is computed as
 $\gamma_{s} = \partial V_\theta/\partial r$.
 
@@ -215,13 +214,13 @@ A large annular aluminum limiter was installed in LAPD to provide a parallel bou
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure2.eps}}
-\caption{\label{fig:timeseries} (Color online) (a)Time series of density fluctuations from a Langmuir probe at 29cm. The black curve shows the trace for the minimum shearing rate state while the red is for a high flow shear state. The 3.2ms shown is the temporal averaging region. (b)Time series for radial velocity fluctuations (mean subtracted) taken using two vertically spaced floating potential probe tips also at 29cm.}
+\caption{\label{fig:timeseries} (Color online) (a)Single shot (not averaged) time series of density fluctuations from a Langmuir probe at 29cm. The black curve shows the trace for the minimum shearing rate state while the red is for a high flow shear state. The 3.2ms shown is the temporal averaging region. (b)Time series for radial velocity fluctuations (mean subtracted) taken using two vertically spaced floating potential probe tips also at 29cm.}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure3.eps}}
-\caption{\label{fig:profiles} (Color online) Profiles of (a) density fluctuations, (b) radial velocity fluctuations, (c) particle flux, and (d) shearing rate normalized to $\tau_{ac}$. The limiter edge is indicated by the purple dotted line at 26cm. The spatial averaging region is indicated by the dashed lines between 27 and 31cm. The three curves for each of the first three plots shown the suppression of the quantity with increase shearing rate inside the spatial averaging region. The averaging region avoids direct influence from the coherent mode localized at the limiter edge.}
+\caption{\label{fig:profiles} (Color online) Shot-averaged profiles of (a) density fluctuations, (b) radial velocity fluctuations, (c) particle flux, and (d) shearing rate normalized to $\tau_{ac}$. The limiter edge is indicated by the purple dotted line at 26cm. The spatial averaging region is indicated by the dashed lines between 27 and 31cm. The three curves for each of the first three plots shown the suppression of the quantity with increase shearing rate inside the spatial averaging region. The averaging region avoids direct influence from the coherent mode localized at the limiter edge.}
 \end{figure}
 
 A recent experiment on the LAPD demonstrated the ability to achieve
@@ -240,7 +239,7 @@ fluctuation amplitude are reduced as shearing rate is increased and
 the resulting transport changes cause observable steepening of the
 density gradient.
 
-Examples of time series of density and radial velocity measurements for the minimum flow shear state and a high flow shear state are shown in Figure~\ref{fig:timeseries} specifically for r=29cm, in the middle of the shear layer. Comparison of the curves show a decrease in fluctuations throughout the entire time averaging region. Profiles made from these time-averaged quantities are shown in Figure~\ref{fig:profiles} for density fluctuations, radial velocity fluctuations, particle flux and shearing rate. A minimum, intermediate, and high shearing rate state is shown and with suppression of these measurements clearly visible especially within the spatial averaging region indicated by the grey dashed lines (27cm to 31cm). The averaging region was chosen to avoid the effect of the coherent mode, localized at the limiter edge, as much as possible but the mode does influence the spatial averaging region somewhat at the highest flow states.
+Examples of time series of density and radial velocity measurements for the minimum flow shear state and a high flow shear state are shown in Figure~\ref{fig:timeseries} specifically for r=29cm, in the middle of the shear layer. Comparison of the curves show a decrease in fluctuations throughout the entire time averaging region. Profiles made from these time-averaged quantities are shown in Figure~\ref{fig:profiles} for density fluctuations, radial velocity fluctuations, particle flux and shearing rate. A minimum shearing rate, intermediate shearing rate, and high shearing rate state is shown and with suppression of these measurements clearly visible especially within the spatial averaging region indicated by the grey dashed lines (27cm to 31cm). The averaging region was chosen to avoid the effect of the limiter-edge-localized coherent mode as much as possible, but the mode does influence the spatial averaging region somewhat at the highest flow states.
 
 Figure~\ref{fig:densvrcp} shows the experimental
 results for measurements of spatially-averaged density fluctuation amplitude, radial
@@ -258,7 +257,7 @@ error from the number of shots used to average the quantity ($\sigma
 
 Measurements of the radial correlation length were recorded as a function of shearing rate (applied bias) using a two-probe correlation technique. A reference probe collecting $I_{\rm sat}$ is kept stationary at a particular axial and radial location within LAPD. A second Langmuir probe situated at an axial point closer to the cathode is moved shot-to-shot in a rectangular grid around the radial location of the reference probe.  The cross-field cross-correlation function of these two measurements is computed shot-to-shot for a delay time $\tau$ as $C(x,y,\tau) = \langle I_{\rm ref}(x,y,t)I_{\rm mot}(x,y,t+\tau)\rangle$.
 
-Figure~\ref{fig:radcorr}(a) shows the normalized correlation function $C(x,y)/C_{\rm max}$ for the unbiased state (flow in the IDD), a minimum shear state, and a high bias state (large EDD flow) with a reference probe located at $x=29.5$cm, $y=0$cm (right in the middle of the shear layer). The black curve represents the contour line where $C(x,y)/C_{\rm max} = 0.5$. The radial correlation length $\Delta r_{c}$ is defined here as the radial width of this black curve through the reference probe location.   The variation of the correlation length versus shearing rate is shown in Figure~\ref{fig:radcorr} (normalized to the maximum radial correlation length calculated for all biases, $r_max = 5.5$cm).
+Figure~\ref{fig:radcorr}(a) shows the normalized correlation function $C(x,y)/C_{\rm max}$ for the unbiased state (flow in the IDD), a minimum shear state, and a high bias state (large EDD flow) with a reference probe located at $x=29.5$cm, $y=0$cm (right in the middle of the shear layer). The black curve represents the contour line where $C(x,y)/C_{\rm max} = 0.5$. The radial correlation length $\Delta r_{c}$ is defined here as the radial width of this black curve through the reference probe location.   The variation of the correlation length versus shearing rate is shown in Figure~\ref{fig:radcorr} (normalized to the maximum radial correlation length calculated for all biases, $r_{max} = 5.5$cm).
 The correlation length is found to decrease substantially with shear.  A break in the trend of decreasing correlation length is observed for larger shearing rates where the correlation function appears to be dominated by a coherent mode (which also appears in the temporal power spectrum).
 
 Some achieved parameter regimes for the shearing rate and density
@@ -288,7 +287,7 @@ general, the velocity gradient scale length decreases much faster than the densi
 \begin{figure}[!htbp]
 \centerline{
 \includegraphics[width=8.5cm]{figure6.eps}}
-\caption{\label{fig:radcorr} (Color online) Normalized correlation functions for (a)unbiased, IDD flow state, (b)no shear state, and (c)high bias, high EDD flow state where the black curve represents a decrease of 0.5 from peak. (Color scale indicates correlation for all three biases). (d)Radial correlation length normalized to maximum correlation length (5.5cm) versus normalized shearing rate with M2 fits for weak (green) and strong (blue) shear. (e)Ratio of radial correlation length to density gradient scale length.}
+\caption{\label{fig:radcorr} (Color online) Normalized correlation functions for (a)unbiased, IDD flow state, (b)no shear state, and (c)high bias, high EDD flow state where the black curve represents a decrease of 0.5 from peak. (Color scale indicates normalized correlation for all three biases). (d)Radial correlation length normalized to maximum correlation length (5.5cm) versus normalized shearing rate with M2 fits for weak (green) and strong (blue) shear. (e)Ratio of radial correlation length to density gradient scale length.}
 \end{figure}
 
 \begin{figure}[!htbp]
@@ -468,7 +467,7 @@ careful model validation difficult, there are a number of conclusions
 that can be drawn from the analysis reported here. First the
 experimental results from this dataset show a distinct difference in
 scaling between the weak and strong shear regimes, consistent with
-expectations from many models. The models fit to separate regimes generally have lower or at least comparable $\chi^{2}$ values than those fit to a range in shearing rate that spans both weak and strong regimes. Second, none of the three models tested were clearly better than the others based on $\chi^{2}$ goodness of fit. The fits were generally not very close to predicted values though a few quantities yield fits that were very close to the theory---namely, as the strong shear density M2 fit of $\nu$ = -0.515, the strong shear M2 diffusivity fit of $\nu$ = -1.715, or the full range crossphase M2 fit of $\nu$ = -0.102. However, the goodness-of-fit for the alternative models in each of these cases were either not significantly worse, or were in fact better. Third, the data clearly supports the prediction that
+expectations from many models. The models fit to separate regimes generally have lower or at least comparable $\chi^{2}$ values than those fit to a range in shearing rate that spans both weak and strong regimes. Second, none of the three models tested were clearly better than the others based on $\chi^{2}$ goodness of fit. The fits were generally not very close to predicted values though a few quantities did yield fits that were very close to the theory---namely, the strong shear density M2 fit of $\nu$ = -0.515, the strong shear M2 diffusivity fit of $\nu$ = -1.715, and the full range crossphase M2 fit of $\nu$ = -0.102. However, the goodness-of-fit for the alternative models in each of these cases were either not significantly worse, or were in fact better. Third, the data clearly supports the prediction that
 density fluctuation amplitude is more strongly suppressed than the
 crossphase and thus makes a more significant contribution to the
 suppression of radial transport.  However it should be noted that at
@@ -505,7 +504,7 @@ that decorrelation is incorrect as the underlying physical mechanism
 for shear suppression.  Alternative models have been proposed,
 including enhanced coupling to damped eigenmodes~\cite{terry06} (this model focuses
 mainly on zonal flows rather than mean flows, however) or suppression
-due to spectral shift~\cite{staebler12}.  Comparison of this dataset to
+due to spectral shift~\cite{staebler13}.  Comparison of this dataset to
 predictions made by alternative shear suppression models will be the
 subject of future work.  Additionally, comparison to direct numerical
 simulation of LAPD turbulence in the presence of sheared flow will
@@ -610,8 +609,8 @@ A.P.L. Newton and E.-J. Kim, Phys. Plasmas {\bf 14}, 122306 (2007).
 \bibitem{terry06}
 P.W. Terry and R. Gatto, Phys. Plasmas {\bf 13}, 062309 (2006).
 
-\bibitem{staebler12}
-G.M. Staebler, R.E. Waltz, J.E. Kinsey and W. Solomon in \textit{Proceedings of the 24th Fusion Energy Conference, San Diego, 2012} (International Atomic Energy Agency, Vienna, 2012).
+\bibitem{staebler13}
+G.M. Staebler, R.E. Waltz, J. Candy and J.E. Kinsey, Phys. Rev. Lett. {\bf 110}, 055003, (2013)).
 
 \bibitem{friedman12}
 B. Friedman, T.A. Carter, M.V. Umansky, D. Schaffner and B. Dudson, Phys. Plasmas {\bf 19}, 102307 (2012).
